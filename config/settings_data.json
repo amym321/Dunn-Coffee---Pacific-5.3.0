@@ -142,8 +142,8 @@
           "announcement_text": "Return to Main Site",
           "announcement_text_mobile": "Use less text on mobile!",
           "announcement_link": "https:\/\/dunnbrothers.com\/",
-          "announcement_color": "#ffffff",
-          "announcement_background": "#000000"
+          "announcement_color": "#030104",
+          "announcement_background": "#ceb888"
         }
       },
       "promotions": {
