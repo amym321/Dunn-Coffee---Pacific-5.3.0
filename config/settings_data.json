@@ -124,7 +124,7 @@
           "show_border": true,
           "logo_desktop": "shopify:\/\/shop_images\/DB_PrimaryLogo_RGB_copy_8_fcb90d0f-de5e-4064-a7ad-51417aaf55b7.png",
           "center_logo_desktop": false,
-          "logo_max_width_desktop": 210,
+          "logo_max_width_desktop": 170,
           "center_logo_mobile": true,
           "logo_max_width_mobile": 90,
           "cart_icon": "shopping_cart",
