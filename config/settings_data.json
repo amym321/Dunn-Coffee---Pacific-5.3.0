@@ -17,7 +17,7 @@
     "color_input_text": "#555555",
     "color_input_background": "#ffffff",
     "color_input_border": "#d0d0d0",
-    "color_header_background": "#ffffff",
+    "color_header_background": "#ceb888",
     "color_header_text": "#38291e",
     "font_size_base": 17,
     "font_body": "roboto_slab_n4",
@@ -143,8 +143,8 @@
           "announcement_text": "Return to Cafés Main Site",
           "announcement_text_mobile": "Use less text on mobile!",
           "announcement_link": "https:\/\/dunnbrothers.com\/",
-          "announcement_color": "#030104",
-          "announcement_background": "#ceb888"
+          "announcement_color": "#38291e",
+          "announcement_background": "#db2327"
         }
       },
       "promotions": {
