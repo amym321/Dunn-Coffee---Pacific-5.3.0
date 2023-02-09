@@ -90,7 +90,7 @@
           "1559167474136": {
             "type": "feature",
             "settings": {
-              "meganav_trigger": "",
+              "meganav_trigger": "Shop",
               "meganav_show_images": false,
               "meganav_image_style": "natural",
               "promo_show": true,
