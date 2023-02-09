@@ -94,7 +94,7 @@
               "meganav_show_images": false,
               "meganav_image_style": "natural",
               "promo_show": true,
-              "promo_position": "first",
+              "promo_position": "last",
               "promo_block_column_count": "1",
               "promo_area_width": 30,
               "promo_image_style": "natural",
