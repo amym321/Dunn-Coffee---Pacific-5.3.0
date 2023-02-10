@@ -88,8 +88,48 @@
         "product_image_flip": false
       }
     },
+    "3ed08dd3-80f9-4a2d-bf0d-fbe61334c213": {
+      "type": "logo-list",
+      "blocks": {
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-0": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-1": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-2": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-3": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-0",
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-1",
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-2",
+        "template--16717869383936__3ed08dd3-80f9-4a2d-bf0d-fbe61334c213-1676067110907d5741-3"
+      ],
+      "settings": {
+        "title": "Logo list",
+        "border": false
+      }
+    },
     "home-featured-product-1": {
       "type": "home-featured-product",
+      "disabled": true,
       "blocks": {
         "title": {
           "type": "title",
@@ -214,45 +254,6 @@
         "image-alignment": "left"
       }
     },
-    "home-featured-video-1": {
-      "type": "home-featured-video",
-      "settings": {
-        "title": "Featured video",
-        "border": true,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text-color": "light",
-        "video_title": "",
-        "button-text": "",
-        "video-url": ""
-      }
-    },
-    "home-blog-posts-1": {
-      "type": "home-blog-posts",
-      "settings": {
-        "title": "Blog posts",
-        "border": true,
-        "blog": ""
-      }
-    },
-    "pxs-map-1": {
-      "type": "pxs-map",
-      "settings": {
-        "section_height": "medium",
-        "title": "Location",
-        "content": "<p>1221 Broad St<br>Victoria, BC<\/p>",
-        "text_alignment": "center",
-        "layout": "overlay-center-center",
-        "layout_mobile": "below",
-        "address": "1221 Broad St, Victoria, BC",
-        "api_key": "",
-        "enable_custom_colors": false,
-        "foreground_color": "#292929",
-        "background_color": "#ffffff",
-        "zoom": 2,
-        "overlay_color": "#000000",
-        "opacity": 10
-      }
-    },
     "1676063843ade6aad8": {
       "type": "apps",
       "blocks": {
@@ -277,13 +278,11 @@
     "f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6",
     "815321eb-24de-43d0-b0e0-17379d118bb0",
     "home-featured-collection-1",
+    "3ed08dd3-80f9-4a2d-bf0d-fbe61334c213",
     "home-featured-product-1",
     "home-image-gallery-1",
     "home-image-with-text-1",
     "home-image-with-text-2",
-    "home-featured-video-1",
-    "home-blog-posts-1",
-    "pxs-map-1",
     "1676063843ade6aad8"
   ]
 }
