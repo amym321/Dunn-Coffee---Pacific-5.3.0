@@ -119,6 +119,9 @@
         "block-2",
         "2c1b5d83-e152-4e83-9796-73da043709f8"
       ],
+      "custom_css": [
+        ".home-module {padding-bottom: 150px;}"
+      ],
       "settings": {
         "title": "Image gallery",
         "border": false,
