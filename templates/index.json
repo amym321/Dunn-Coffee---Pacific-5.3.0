@@ -81,7 +81,7 @@
       "type": "home-featured-collection",
       "settings": {
         "title": "Featured collection",
-        "border": false,
+        "border": true,
         "collection": "",
         "products_in_row": 4,
         "rows": 1,
@@ -136,77 +136,6 @@
         "text-shadow": true
       }
     },
-    "home-featured-product-1": {
-      "type": "home-featured-product",
-      "disabled": true,
-      "blocks": {
-        "title": {
-          "type": "title",
-          "settings": {
-            "position": "top"
-          }
-        },
-        "vendor": {
-          "type": "vendor",
-          "settings": {
-            "position": "top"
-          }
-        },
-        "gallery": {
-          "type": "gallery",
-          "settings": {
-            "position": "top"
-          }
-        },
-        "variant_selection": {
-          "type": "variant_selection",
-          "settings": {
-            "position": "top"
-          }
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "position": "top"
-          }
-        },
-        "form": {
-          "type": "form",
-          "settings": {
-            "position": "top"
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {
-            "position": "top"
-          }
-        },
-        "callout": {
-          "type": "callout",
-          "settings": {
-            "position": "top"
-          }
-        }
-      },
-      "block_order": [
-        "title",
-        "vendor",
-        "gallery",
-        "variant_selection",
-        "price",
-        "form",
-        "description",
-        "callout"
-      ],
-      "settings": {
-        "product": "",
-        "show_border": true,
-        "enable_zoom": true,
-        "gallery_enable_video_autoplay": true,
-        "gallery_enable_video_looping": true
-      }
-    },
     "home-image-with-text-1": {
       "type": "home-image-with-text",
       "settings": {
@@ -252,7 +181,6 @@
     "815321eb-24de-43d0-b0e0-17379d118bb0",
     "home-featured-collection-1",
     "home-image-gallery-1",
-    "home-featured-product-1",
     "home-image-with-text-1",
     "home-image-with-text-2",
     "1676063843ade6aad8"
