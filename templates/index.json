@@ -94,6 +94,7 @@
         "block-2": {
           "type": "feature",
           "settings": {
+            "image": "shopify:\/\/shop_images\/1_6.jpg",
             "title": "heading",
             "text-above": "",
             "text-below": "Text",
