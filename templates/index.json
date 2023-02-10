@@ -81,10 +81,10 @@
       "type": "home-featured-collection",
       "settings": {
         "title": "Featured collection",
-        "border": true,
+        "border": false,
         "collection": "",
-        "products_in_row": 3,
-        "rows": 2,
+        "products_in_row": 4,
+        "rows": 1,
         "product_image_flip": false
       }
     },
