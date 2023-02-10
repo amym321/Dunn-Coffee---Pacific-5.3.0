@@ -84,7 +84,7 @@
           "type": "feature",
           "settings": {
             "title": "Image with text",
-            "text-above": "Subheading",
+            "text-above": "",
             "text-below": "Text",
             "url": "",
             "text-color": "light",
@@ -94,8 +94,8 @@
         "block-2": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
+            "title": "heading",
+            "text-above": "",
             "text-below": "Text",
             "url": "",
             "text-color": "light",
@@ -106,7 +106,7 @@
           "type": "feature",
           "settings": {
             "title": "Image with text",
-            "text-above": "Subheading",
+            "text-above": "",
             "text-below": "Text",
             "url": "",
             "text-color": "light",
