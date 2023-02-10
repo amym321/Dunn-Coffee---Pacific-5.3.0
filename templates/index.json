@@ -48,42 +48,6 @@
         "width": "regular"
       }
     },
-    "home-image-gallery-1": {
-      "type": "home-image-gallery",
-      "blocks": {
-        "block-1": {
-          "type": "feature",
-          "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
-            "text-color": "light",
-            "text-position": "center"
-          }
-        },
-        "block-2": {
-          "type": "feature",
-          "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
-            "text-color": "light",
-            "text-position": "center"
-          }
-        }
-      },
-      "block_order": [
-        "block-1",
-        "block-2"
-      ],
-      "settings": {
-        "title": "Image gallery",
-        "border": false,
-        "text-shadow": true
-      }
-    },
     "home-featured-collection-1": {
       "type": "home-featured-collection",
       "settings": {
@@ -93,38 +57,6 @@
         "products_in_row": 3,
         "rows": 2,
         "product_image_flip": false
-      }
-    },
-    "home-image-with-text-1": {
-      "type": "home-image-with-text",
-      "settings": {
-        "title": "Image with text",
-        "border": true,
-        "image_title": "Rich text",
-        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
-        "image-alignment": "right"
-      }
-    },
-    "home-image-with-text-2": {
-      "type": "home-image-with-text",
-      "settings": {
-        "title": "Image with text",
-        "border": false,
-        "image_title": "Rich text",
-        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
-        "image-alignment": "left"
-      }
-    },
-    "home-featured-video-1": {
-      "type": "home-featured-video",
-      "settings": {
-        "title": "Featured video",
-        "border": true,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
-        "text-color": "light",
-        "video_title": "",
-        "button-text": "",
-        "video-url": ""
       }
     },
     "home-featured-product-1": {
@@ -197,6 +129,74 @@
         "gallery_enable_video_looping": true
       }
     },
+    "home-image-gallery-1": {
+      "type": "home-image-gallery",
+      "blocks": {
+        "block-1": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        },
+        "block-2": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "title": "Image gallery",
+        "border": false,
+        "text-shadow": true
+      }
+    },
+    "home-image-with-text-1": {
+      "type": "home-image-with-text",
+      "settings": {
+        "title": "Image with text",
+        "border": true,
+        "image_title": "Rich text",
+        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+        "image-alignment": "right"
+      }
+    },
+    "home-image-with-text-2": {
+      "type": "home-image-with-text",
+      "settings": {
+        "title": "Image with text",
+        "border": false,
+        "image_title": "Rich text",
+        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+        "image-alignment": "left"
+      }
+    },
+    "home-featured-video-1": {
+      "type": "home-featured-video",
+      "settings": {
+        "title": "Featured video",
+        "border": true,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text-color": "light",
+        "video_title": "",
+        "button-text": "",
+        "video-url": ""
+      }
+    },
     "home-blog-posts-1": {
       "type": "home-blog-posts",
       "settings": {
@@ -246,12 +246,12 @@
   "order": [
     "home-slideshow-1",
     "f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6",
-    "home-image-gallery-1",
     "home-featured-collection-1",
+    "home-featured-product-1",
+    "home-image-gallery-1",
     "home-image-with-text-1",
     "home-image-with-text-2",
     "home-featured-video-1",
-    "home-featured-product-1",
     "home-blog-posts-1",
     "pxs-map-1",
     "1676063843ade6aad8"
