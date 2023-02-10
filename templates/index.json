@@ -87,7 +87,7 @@
             "text-above": "",
             "text-below": "Text",
             "url": "",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         },
@@ -98,7 +98,7 @@
             "text-above": "",
             "text-below": "Text",
             "url": "",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         },
@@ -109,7 +109,7 @@
             "text-above": "",
             "text-below": "Text",
             "url": "",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         }
