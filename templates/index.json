@@ -1,1 +1,259 @@
-{"sections":{"home-slideshow-1":{"type":"home-slideshow","blocks":{"block-1":{"type":"feature","settings":{"text-color":"#f8f4ee","text-shadow":true}}},"block_order":["block-1"],"settings":{"layout":"full-width"}},"home-image-gallery-1":{"type":"home-image-gallery","blocks":{"block-1":{"type":"feature","settings":{"text-color":"light","text-position":"center"}},"block-2":{"type":"feature","settings":{"text-color":"light","text-position":"center"}}},"block_order":["block-1","block-2"],"settings":{"border":false,"text-shadow":true}},"home-featured-collection-1":{"type":"home-featured-collection","settings":{"border":true,"products_in_row":3,"rows":2,"product_image_flip":false}},"home-image-with-text-1":{"type":"home-image-with-text","settings":{"border":true,"image-alignment":"right"}},"home-image-with-text-2":{"type":"home-image-with-text","settings":{"border":false,"image-alignment":"left"}},"home-featured-video-1":{"type":"home-featured-video","settings":{"border":true,"text-color":"light"}},"home-featured-product-1":{"type":"home-featured-product","blocks":{"title":{"type":"title","settings":{"position":"top"}},"vendor":{"type":"vendor","settings":{"position":"top"}},"gallery":{"type":"gallery","settings":{"position":"top"}},"variant_selection":{"type":"variant_selection","settings":{"position":"top"}},"price":{"type":"price","settings":{"position":"top"}},"form":{"type":"form","settings":{"position":"top"}},"description":{"type":"description","settings":{"position":"top"}},"callout":{"type":"callout","settings":{"position":"top"}}},"block_order":["title","vendor","gallery","variant_selection","price","form","description","callout"],"settings":{"show_border":true,"enable_zoom":true}},"home-blog-posts-1":{"type":"home-blog-posts","settings":{"border":true}},"pxs-map-1":{"type":"pxs-map","settings":{}}},"order":["home-slideshow-1","home-image-gallery-1","home-featured-collection-1","home-image-with-text-1","home-image-with-text-2","home-featured-video-1","home-featured-product-1","home-blog-posts-1","pxs-map-1"]}
+{
+  "sections": {
+    "home-slideshow-1": {
+      "type": "home-slideshow",
+      "blocks": {
+        "block-1": {
+          "type": "feature",
+          "settings": {
+            "content-alignment": "center",
+            "title-heading": "Slideshow",
+            "text-above": "",
+            "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "url": "",
+            "text-color": "#f8f4ee",
+            "text-shadow": true
+          }
+        }
+      },
+      "block_order": [
+        "block-1"
+      ],
+      "settings": {
+        "title": "",
+        "border": false,
+        "layout": "full-width",
+        "transition": "transition-fade",
+        "autoplay_enable": false,
+        "autoplay_delay": 4
+      }
+    },
+    "f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6": {
+      "type": "pxs-rich-text",
+      "blocks": {
+        "template--16717869383936__f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6-1676063841d9d82964-0": {
+          "type": "text",
+          "settings": {
+            "title": "Rich text",
+            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+            "heading_size": "large",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16717869383936__f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6-1676063841d9d82964-0"
+      ],
+      "settings": {
+        "width": "regular"
+      }
+    },
+    "home-image-gallery-1": {
+      "type": "home-image-gallery",
+      "blocks": {
+        "block-1": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        },
+        "block-2": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "block-1",
+        "block-2"
+      ],
+      "settings": {
+        "title": "Image gallery",
+        "border": false,
+        "text-shadow": true
+      }
+    },
+    "home-featured-collection-1": {
+      "type": "home-featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "border": true,
+        "collection": "",
+        "products_in_row": 3,
+        "rows": 2,
+        "product_image_flip": false
+      }
+    },
+    "home-image-with-text-1": {
+      "type": "home-image-with-text",
+      "settings": {
+        "title": "Image with text",
+        "border": true,
+        "image_title": "Rich text",
+        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+        "image-alignment": "right"
+      }
+    },
+    "home-image-with-text-2": {
+      "type": "home-image-with-text",
+      "settings": {
+        "title": "Image with text",
+        "border": false,
+        "image_title": "Rich text",
+        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+        "image-alignment": "left"
+      }
+    },
+    "home-featured-video-1": {
+      "type": "home-featured-video",
+      "settings": {
+        "title": "Featured video",
+        "border": true,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text-color": "light",
+        "video_title": "",
+        "button-text": "",
+        "video-url": ""
+      }
+    },
+    "home-featured-product-1": {
+      "type": "home-featured-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "gallery": {
+          "type": "gallery",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "variant_selection": {
+          "type": "variant_selection",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "callout": {
+          "type": "callout",
+          "settings": {
+            "position": "top"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "gallery",
+        "variant_selection",
+        "price",
+        "form",
+        "description",
+        "callout"
+      ],
+      "settings": {
+        "product": "",
+        "show_border": true,
+        "enable_zoom": true,
+        "gallery_enable_video_autoplay": true,
+        "gallery_enable_video_looping": true
+      }
+    },
+    "home-blog-posts-1": {
+      "type": "home-blog-posts",
+      "settings": {
+        "title": "Blog posts",
+        "border": true,
+        "blog": ""
+      }
+    },
+    "pxs-map-1": {
+      "type": "pxs-map",
+      "settings": {
+        "section_height": "medium",
+        "title": "Location",
+        "content": "<p>1221 Broad St<br>Victoria, BC<\/p>",
+        "text_alignment": "center",
+        "layout": "overlay-center-center",
+        "layout_mobile": "below",
+        "address": "1221 Broad St, Victoria, BC",
+        "api_key": "",
+        "enable_custom_colors": false,
+        "foreground_color": "#292929",
+        "background_color": "#ffffff",
+        "zoom": 2,
+        "overlay_color": "#000000",
+        "opacity": 10
+      }
+    },
+    "1676063843ade6aad8": {
+      "type": "apps",
+      "blocks": {
+        "146afcfc-2bd2-410b-aa1d-35799a9ba309": {
+          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "settings": {
+            "heading_size": 20,
+            "feed_width": 100,
+            "html_area": ""
+          }
+        }
+      },
+      "block_order": [
+        "146afcfc-2bd2-410b-aa1d-35799a9ba309"
+      ],
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "home-slideshow-1",
+    "f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6",
+    "home-image-gallery-1",
+    "home-featured-collection-1",
+    "home-image-with-text-1",
+    "home-image-with-text-2",
+    "home-featured-video-1",
+    "home-featured-product-1",
+    "home-blog-posts-1",
+    "pxs-map-1",
+    "1676063843ade6aad8"
+  ]
+}
