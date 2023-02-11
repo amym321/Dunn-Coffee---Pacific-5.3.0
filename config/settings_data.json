@@ -60,8 +60,8 @@
           "1559668401188": {
             "type": "connect",
             "settings": {
-              "title": "Newsletter",
-              "show-mailing-list": false,
+              "title": "Lets Get Social",
+              "show-mailing-list": true,
               "show-social-links": true
             }
           }
