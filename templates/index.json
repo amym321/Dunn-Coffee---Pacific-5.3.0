@@ -54,7 +54,7 @@
         "template--16717869383936__815321eb-24de-43d0-b0e0-17379d118bb0-16760670499311bab6-0": {
           "type": "feature",
           "settings": {
-            "collection": "",
+            "collection": "fresh-roasted-coffee-and-tea",
             "text-shadow": false,
             "text-color": "light"
           }
@@ -62,7 +62,7 @@
         "template--16717869383936__815321eb-24de-43d0-b0e0-17379d118bb0-16760670499311bab6-1": {
           "type": "feature",
           "settings": {
-            "collection": "",
+            "collection": "gifts-subscriptions",
             "text-shadow": false,
             "text-color": "light"
           }
