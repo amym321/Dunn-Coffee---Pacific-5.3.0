@@ -202,10 +202,10 @@
       "settings": {
         "title": "Featured collection",
         "border": true,
-        "collection": "",
+        "collection": "bestsellers",
         "products_in_row": 4,
         "rows": 1,
-        "product_image_flip": false
+        "product_image_flip": true
       }
     },
     "home-image-with-text-1": {
