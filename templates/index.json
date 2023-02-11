@@ -185,7 +185,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
-            "title": "Column",
+            "title": "Freshly roasted",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -195,7 +195,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
-            "title": "Column",
+            "title": "Small Batch Roasting",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -205,7 +205,7 @@
           "type": "column",
           "settings": {
             "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
-            "title": "Column",
+            "title": "Ethically Sourced",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
             "link": ""
@@ -229,7 +229,7 @@
         "9d38af84-479e-4cdb-a155-fb0d20de20d0"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "Freshly Roasted",
         "heading_size": "h1",
         "image_width": "half",
         "image_ratio": "adapt",
