@@ -61,7 +61,7 @@
             "type": "connect",
             "settings": {
               "title": "Newsletter",
-              "show-mailing-list": true,
+              "show-mailing-list": false,
               "show-social-links": true
             }
           }
