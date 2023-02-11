@@ -184,6 +184,7 @@
         "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-0": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -193,6 +194,7 @@
         "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-1": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
@@ -202,6 +204,7 @@
         "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-2": {
           "type": "column",
           "settings": {
+            "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
             "title": "Column",
             "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
             "link_label": "",
