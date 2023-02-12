@@ -46,7 +46,10 @@
     "share-widget-fancy": false,
     "share-widget-email": false,
     "checkout_logo_image": "shopify:\/\/shop_images\/DB_PrimaryLogo_RGB_copy_8_fcb90d0f-de5e-4064-a7ad-51417aaf55b7.png",
-    "checkout_body_background_color": "#cfbb99",
+    "checkout_logo_position": "center",
+    "checkout_logo_size": "large",
+    "checkout_body_background_color": "#f7f6f1",
+    "checkout_sidebar_background_color": "#cfbb99",
     "product-show-share-buttons": false,
     "sections": {
       "footer": {
