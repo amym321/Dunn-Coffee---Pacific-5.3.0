@@ -79,6 +79,7 @@
     },
     "085b0d36-8019-45c6-9d08-810c33d3f52f": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-0": {
           "type": "column",
@@ -146,12 +147,12 @@
     },
     "home-image-gallery-1": {
       "type": "home-image-gallery",
-      "disabled": true,
       "blocks": {
         "block-1": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
+            "image": "shopify:\/\/shop_images\/1_6.jpg",
+            "title": "Freshly Roasted",
             "text-above": "",
             "text-below": "Text",
             "url": "",
@@ -163,7 +164,7 @@
           "type": "feature",
           "settings": {
             "image": "shopify:\/\/shop_images\/1_6.jpg",
-            "title": "heading",
+            "title": "Small Batch Roasting",
             "text-above": "",
             "text-below": "Text",
             "url": "",
@@ -174,7 +175,8 @@
         "2c1b5d83-e152-4e83-9796-73da043709f8": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
+            "image": "shopify:\/\/shop_images\/1_6.jpg",
+            "title": "Ethically Sourced",
             "text-above": "",
             "text-below": "Text",
             "url": "",
