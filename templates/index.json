@@ -212,6 +212,9 @@
     },
     "home-image-with-text-2": {
       "type": "home-image-with-text",
+      "custom_css": [
+        ".home-module {margin-bottom: 0;}"
+      ],
       "settings": {
         "title": "Image with text",
         "border": false,
@@ -222,9 +225,12 @@
     },
     "home-image-with-text-1": {
       "type": "home-image-with-text",
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "Image with text",
-        "border": true,
+        "border": false,
         "image_title": "Rich text",
         "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
         "image-alignment": "right"
