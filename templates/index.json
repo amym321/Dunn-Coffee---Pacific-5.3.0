@@ -6,12 +6,12 @@
         "block-1": {
           "type": "feature",
           "settings": {
-            "content-alignment": "center",
+            "content-alignment": "left",
             "title-heading": "Slideshow",
             "text-above": "",
             "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
             "url": "",
-            "text-color": "#f8f4ee",
+            "text-color": "#ffffff",
             "text-shadow": true
           }
         }
