@@ -1,4 +1,6 @@
-<div data-section-id="{{ section.id }}" data-section-type="featured-images">
+{% comment %} add class for icons on home page styling - am {% endcomment %}
+<div data-section-id="{{ section.id }}" data-section-type="featured-images"
+  class="{% if template contains 'index' %} icon-gallery {% endif %}">
 
   {% assign sectionBorder = section.settings.border %}
   {% assign textShadow = section.settings.text-shadow %}
@@ -102,7 +104,7 @@
 {% schema %}
 {
   "name": "Image gallery",
-  "max_blocks": 3,
+  "max_blocks": 4,
   "settings": [
     {
       "type": "text",
