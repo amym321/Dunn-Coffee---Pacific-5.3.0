@@ -216,7 +216,7 @@
         ".home-module {margin-bottom: 0;}"
       ],
       "settings": {
-        "title": "Image with text",
+        "title": "",
         "border": false,
         "image_title": "Rich text",
         "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
@@ -229,7 +229,7 @@
 
       ],
       "settings": {
-        "title": "Image with text",
+        "title": "",
         "border": false,
         "image_title": "Rich text",
         "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
