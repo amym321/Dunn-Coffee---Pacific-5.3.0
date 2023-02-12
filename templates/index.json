@@ -218,8 +218,8 @@
       "settings": {
         "title": "",
         "border": false,
-        "image_title": "Rich text",
-        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+        "image_title": "Subscribe & Save",
+        "caption": "<p>Get our fresh, small-batch coffee delivered directly to you when you want it.<\/p>",
         "image-alignment": "left"
       }
     },
