@@ -152,7 +152,7 @@
         "type": "promotions",
         "settings": {
           "title": "Promotions",
-          "border": true
+          "border": false
         }
       }
     },
