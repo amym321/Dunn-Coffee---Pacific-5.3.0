@@ -210,16 +210,6 @@
         "product_image_flip": true
       }
     },
-    "home-image-with-text-1": {
-      "type": "home-image-with-text",
-      "settings": {
-        "title": "Image with text",
-        "border": true,
-        "image_title": "Rich text",
-        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
-        "image-alignment": "right"
-      }
-    },
     "home-image-with-text-2": {
       "type": "home-image-with-text",
       "settings": {
@@ -228,6 +218,16 @@
         "image_title": "Rich text",
         "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
         "image-alignment": "left"
+      }
+    },
+    "home-image-with-text-1": {
+      "type": "home-image-with-text",
+      "settings": {
+        "title": "Image with text",
+        "border": true,
+        "image_title": "Rich text",
+        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+        "image-alignment": "right"
       }
     },
     "1676063843ade6aad8": {
@@ -266,8 +266,8 @@
     "085b0d36-8019-45c6-9d08-810c33d3f52f",
     "home-image-gallery-1",
     "home-featured-collection-1",
-    "home-image-with-text-1",
     "home-image-with-text-2",
+    "home-image-with-text-1",
     "1676063843ade6aad8",
     "3b01602a-b285-4148-b196-b951c94d4f72"
   ]
