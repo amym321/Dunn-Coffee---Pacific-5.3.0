@@ -257,7 +257,7 @@
         ".home-module {padding-left: 0px; padding-right: 0px;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"marquee\">\n<div class=\"marquee-block\">\n<p class=\"marquee-text\">\nPURVEYORS OF FRESH ROASTED COFFEE NICELY DUNN SINCE 1987\n<\/p>\n<p class=\"marquee-text\">\n<span>PURVEYORS OF FRESH ROASTED <\/span>COFFEE NICELY DUNN SINCE 1987\n<\/p>\n<\/div>\n<\/div>"
+        "custom_liquid": "<div class=\"marquee\">\n<div class=\"marquee-block\">\n<p class=\"marquee-text\">\n<span>PURVEYORS OF FRESH ROASTED COFFEE <\/span>NICELY DUNN SINCE 1987\n<\/p>\n<p class=\"marquee-text\">\n<span>PURVEYORS OF FRESH ROASTED <\/span>COFFEE NICELY DUNN SINCE 1987\n<\/p>\n<\/div>\n<\/div>"
       }
     },
     "home-image-with-text-2": {
