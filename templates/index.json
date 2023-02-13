@@ -264,7 +264,7 @@
     "home-image-with-text-2": {
       "type": "home-image-with-text",
       "custom_css": [
-        ".home-module {background-color: #db2327; color: #fff; margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;}",
+        ".home-module {background-color: #db2327 !important; color: #fff; margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;}",
         "h2 {color: #fff;}"
       ],
       "settings": {
