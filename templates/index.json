@@ -253,7 +253,8 @@
     "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56": {
       "type": "custom-liquid",
       "custom_css": [
-        ".marquee {background-color: #473124;}",
+        ".custom-liquid {background-color: #473124;}",
+        ".marquee {padding: 10px 0;}",
         ".marquee-text {color: #fff;}"
       ],
       "settings": {
