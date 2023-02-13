@@ -260,6 +260,7 @@
         "border": false,
         "image_title": "Subscribe & Save",
         "caption": "<p>Enjoy <strong>FREE SHIPPING<\/strong> with our subscriptions. Get our fresh, small-batch coffee delivered directly to you and save on shipping. Choose how much and how often you want to receive your coffee.<\/p>",
+        "image": "shopify:\/\/shop_images\/DB-coffee-shippe-2.jpg",
         "image-alignment": "left"
       }
     },
