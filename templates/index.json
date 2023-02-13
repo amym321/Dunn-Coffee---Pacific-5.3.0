@@ -106,6 +106,9 @@
       "block_order": [
         "template--16717869383936__f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6-1676063841d9d82964-0"
       ],
+      "custom_css": [
+        ".pxs-rich-text-section {background-color: #E6DEC1;}"
+      ],
       "settings": {
         "width": "full-width"
       }
