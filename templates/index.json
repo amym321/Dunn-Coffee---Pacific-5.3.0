@@ -254,11 +254,11 @@
       "type": "custom-liquid",
       "custom_css": [
         ".custom-liquid {background-color: #473124; margin-bottom: 0 !important;}",
-        ".marquee {padding: 10px 0;}",
+        ".marquee {padding: 2px 0;}",
         ".marquee-text {color: #fff;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"marquee\">\n<h4 class=\"marquee-text\">\nFINE PURVEYORS OF GREAT, FRESH ROASTED COFFEE SINCE 1987\n<\/h4>\n<\/div>"
+        "custom_liquid": "<div class=\"marquee\">\n<h5 class=\"marquee-text\">\nFINE PURVEYORS OF GREAT, FRESH ROASTED COFFEE SINCE 1987\n<\/h5>\n<\/div>"
       }
     },
     "home-image-with-text-2": {
