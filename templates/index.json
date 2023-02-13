@@ -6,9 +6,9 @@
         "block-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DB_CoffeeBag.jpg",
+            "image": "shopify:\/\/shop_images\/dunn_coffee_banner.png",
             "content-alignment": "center",
-            "title-heading": "Coffee Dunn Right is one of life’s greatest pleasures",
+            "title-heading": "",
             "text-above": "",
             "text-below": "",
             "url": "",
