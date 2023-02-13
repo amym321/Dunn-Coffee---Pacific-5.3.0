@@ -1,4 +1,5 @@
-<div data-section-id="{{ section.id }}" data-section-type="featured-content">
+<div data-section-id="{{ section.id }}" data-section-type="featured-content"
+  class="{% if template contains 'index' %} image-text {% endif %}">
 
   {% assign sectionBorder = section.settings.border %}
   {% assign imageTitle = section.settings.image_title | escape %}
