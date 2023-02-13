@@ -33,6 +33,7 @@
               {% assign textColor = block.settings.text-color %}
               {% assign textAbove = block.settings.text-above | escape %}
               {% assign slideImage = block.settings.image %}
+              {% assign slideImageMobile = block.settings.image-mobile %}
               {% assign heading = block.settings.title-heading | escape %}
               {% assign textBelow = block.settings.text-below | escape %}
               {% assign linkUrl = block.settings.url %}
@@ -40,11 +41,28 @@
               {% assign slide = 'slide-' | append: position %}
 
               {%- capture image_html -%}
-                <div class="slide-image">
+                <div class="slide-image desktop-image">
                   {% if slideImage %}
                     {%
                       render 'rimg',
                       img: slideImage,
+                      size: '1440x640',
+                      lazy: true,
+                      focal_point: slideImage.presentation.focal_point,
+                    %}
+                  {% else %}
+                    {% capture current %}{% cycle 1, 2 %}{% endcapture %}
+                    {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
+                  {% endif %}
+                </div>
+              {%- endcapture -%}
+
+              {%- capture image_mobile_html -%}
+                <div class="slide-image mobile-image">
+                  {% if slideImageMobile %}
+                    {%
+                      render 'rimg',
+                      img: slideImageMobile,
                       size: '1440x640',
                       lazy: true,
                       focal_point: slideImage.presentation.focal_point,
@@ -73,6 +91,7 @@
                 {% endif %}
 
                 {{- image_html -}}
+                {{- image_mobile_html -}}
 
                 {% if textAbove != blank or heading != blank or textBelow != blank %}
                   <div class="slide-content" style="color: {{ textColor }};">
@@ -212,8 +231,13 @@
         {
           "type": "image_picker",
           "id": "image",
-          "label": "Image",
+          "label": "Desktop Image",
           "info": "1440 x 640px .jpg recommended"
+        },
+        {
+          "type": "image_picker",
+          "id": "image-mobile",
+          "label": "Mobile Image"
         },
         {
           "type": "select",
