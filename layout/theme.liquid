@@ -43,6 +43,10 @@
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png" />
   {% endif %}
 
+  {% comment %} font - am {% endcomment %}
+  <link href="https://fonts.cdnfonts.com/css/wisdom-script" rel="stylesheet">
+
+
   {% if template contains 'collection' and current_tags %}
     <meta name="robots" content="noindex" />
     <link rel="canonical" href="{{ shop.url }}{{ collection.url }}" />

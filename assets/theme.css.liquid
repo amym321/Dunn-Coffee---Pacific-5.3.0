@@ -12804,6 +12804,11 @@ shopify-payment-terms {
 /* custom styles - am */
 /**********************/
 
+/* font */
+.wisdon-font {
+  font-family: 'Wisdom Script', sans-serif;
+}
+
 /* menu nav */
 .main-header-wrapper,
 .navmenu-submenu.navmenu-meganav, 
@@ -12836,7 +12841,6 @@ shopify-payment-terms {
 @media (min-width: 721px) {
   /* .slideshow-slides #slide-2  */
   .home-slideshow .mobile-image {
-    {
     display:none;
   }
 }
@@ -12889,11 +12893,44 @@ shopify-payment-terms {
   background-color: #fff;
 }
 
-
+/* Image with text */
+#shopify-section-template--16718466351360__home-image-with-text-1,
+#shopify-section-template--16718466351360__home-image-with-text-2 {
+  background-image: url('//cdn.shopify.com/s/files/1/2467/6817/files/bg_tan_speckle.jpg?v=1675983960');
+}
 
 
 
 /* footer */
+
+.pxs-newsletter {
+  background-color: #e6dec1;
+  /* padding-left: 30px; */
+  margin: 0;
+  /* width: 100%; */
+  max-width: 100%;
+  /* padding-top: 100px; */
+  padding-bottom: 100px;
+
+  transform: translatey(60px);
+}
+
+@media (min-width:721px) {
+  .pxs-newsletter {
+    padding-left: calc(var(--gutter-large) * 1);
+    padding-right: calc(var(--gutter-large) * 1);
+  }
+}
+@media (max-width:721px) {
+  .pxs-newsletter {
+    padding-left: calc(var(--gutter-xs) * 1);
+    padding-right: calc(var(--gutter-xs) * 1);
+  }
+  .pxs-newsletter-heading {
+    margin-top: 20px;
+  }
+}
+
 #shopify-section-footer {
   background-color: #473124;  /* #db2327 !important; */
   color: #fff !important;
@@ -12956,7 +12993,6 @@ footer h4,
 .social-icon a:hover {
   color: #ceb888;
 }
-
 
 
 
