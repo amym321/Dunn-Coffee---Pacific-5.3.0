@@ -62,10 +62,13 @@
       "block_order": [
         "template--16717869383936__1ae2561d-f9f4-4839-bf7c-701e01846e03-167625199549745da4-0"
       ],
+      "custom_css": [
+
+      ],
       "settings": {
         "title": "",
         "border": false,
-        "layout": "content-width",
+        "layout": "full-width",
         "transition": "transition-fade",
         "autoplay_enable": false,
         "autoplay_delay": 4
