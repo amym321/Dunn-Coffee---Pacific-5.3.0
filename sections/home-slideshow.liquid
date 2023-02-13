@@ -67,6 +67,14 @@
                       lazy: true,
                       focal_point: slideImage.presentation.focal_point,
                     %}
+                  {% elsif slideImage %}
+                    {%
+                      render 'rimg',
+                      img: slideImage,
+                      size: '1440x640',
+                      lazy: true,
+                      focal_point: slideImage.presentation.focal_point,
+                    %}
                   {% else %}
                     {% capture current %}{% cycle 1, 2 %}{% endcapture %}
                     {{ 'lifestyle-' | append: current | placeholder_svg_tag: 'placeholder-svg' }}
