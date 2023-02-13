@@ -256,7 +256,7 @@
         ".custom-liquid {background-color: #473124; margin-bottom: 0 !important;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"marquee\">\n<p class=\"marquee-text\">\nPURVEYORS OF FRESH ROASTED COFFEE NICELY DUNN SINCE 1987\n<\/p>\n<\/div>"
+        "custom_liquid": "<div class=\"marquee\">\n<div class=\"marquee-block\">\n<p class=\"marquee-text\">\nPURVEYORS OF FRESH ROASTED COFFEE NICELY DUNN SINCE 1987\n<\/p>\n<p class=\"marquee-text\">\nPURVEYORS OF FRESH ROASTED COFFEE NICELY DUNN SINCE 1987\n<\/p>\n<\/div>\n<\/div>"
       }
     },
     "home-image-with-text-2": {
