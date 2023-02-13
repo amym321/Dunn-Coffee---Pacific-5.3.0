@@ -12816,6 +12816,68 @@ shopify-payment-terms {
   font-weight: bold;
 }
 
+/* menu hover color */
+.navigation .navmenu-depth-1>.navmenu-item>details .navmenu-link:hover,
+.navmenu-submenu.navmenu-meganav .navmenu-depth-3 .navmenu-link:hover,
+.navigation .navmenu-submenu.navmenu-depth-2 a:hover,
+.main-header-wrapper a:hover,
+.navmenu-id-our-story a:hover 
+{
+  color:#db2327 !important;
+}
+
+/* gallery images homepage */
+.icon-gallery .home-feature-content {
+  top: unset; 
+  transform: none;
+}
+.icon-gallery .home-module {
+  padding-bottom: 150px;
+} 
+@media (max-width: 1240px) {
+  .icon-gallery .home-module {
+    padding-bottom: 250px;
+  } 
+}
+@media (max-width: 920px) {
+  .icon-gallery .home-module {
+    padding-bottom: 350px;
+  } 
+}
+@media (max-width: 850px) {
+  .icon-gallery .home-module {
+    padding-bottom: 300px;
+  } 
+}
+@media (max-width: 800px) {
+  .icon-gallery .home-module {
+    padding-bottom: 350px;
+  } 
+}
+@media (max-width: 720px) {
+  .icon-gallery .home-module {
+    padding-bottom: 0;
+  } 
+}
+
+@media (max-width: 720px) {
+  .icon-gallery .home-feature {
+  }
+}
+
+.icon-gallery .home-feature-image {
+  margin: auto;
+  width: 35%;
+}
+
+.home-feature-image img {
+  background-color: #fff;
+}
+
+
+
+
+
 /* footer */
 #shopify-section-footer {
   background-color: #473124;  /* #db2327 !important; */
@@ -12839,12 +12901,12 @@ footer h4,
   text-decoration:underline;
 }
 
-/* footer newsletter */
+/* footer column of newsletter */
 .main-footer-wrapper .newsletter-subscription .newsletter-subscription-form {
   display:none;
 }
 
-/* social links */
+/* footer social links */
 .social-link { 
   padding-right: 20px;
 }
@@ -12854,6 +12916,9 @@ footer h4,
   border:solid 3.5px #fff;
   border-radius: 50%;
   padding-right: 10px;
+}
+.social-icon:hover {
+  border: solid 3.5px #ceb888;
 }
 .social-icon a {
   margin: auto;
@@ -12872,31 +12937,15 @@ footer h4,
   }
 }
 
-
-
-
-
-
-
-
-
-/* gallery images homepage */
-.icon-gallery .home-feature-content {
-  top: unset; 
-  transform: none;
+.footer-link-list a:hover,
+.social-icon a:hover {
+  color: #ceb888;
 }
-.icon-gallery .home-module {
-  padding-bottom: 150px;
-} 
 
-@media (max-width: 720px) {
-  .icon-gallery .home-feature {
-  }
-}
-.icon-gallery .home-feature-image {
-  margin: auto;
-  width: 50%;
-}
+
+
+
+
 
 
 
