@@ -97,7 +97,7 @@
           "type": "text",
           "settings": {
             "title": "WHY CHOOSE DUNN BROTHERS?",
-            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+            "text": "",
             "heading_size": "large",
             "text_alignment": "center"
           }
