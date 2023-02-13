@@ -202,8 +202,8 @@
     "home-featured-collection-1": {
       "type": "home-featured-collection",
       "settings": {
-        "title": "Featured collection",
-        "border": false,
+        "title": "Treat yourself to our bestsellers",
+        "border": true,
         "collection": "bestsellers",
         "products_in_row": 4,
         "rows": 1,
