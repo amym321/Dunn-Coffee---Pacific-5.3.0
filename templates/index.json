@@ -113,13 +113,6 @@
         "width": "full-width"
       }
     },
-    "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56": {
-      "type": "custom-liquid",
-      "disabled": true,
-      "settings": {
-        "custom_liquid": ""
-      }
-    },
     "085b0d36-8019-45c6-9d08-810c33d3f52f": {
       "type": "multicolumn",
       "disabled": true,
@@ -257,6 +250,16 @@
         "product_image_flip": true
       }
     },
+    "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".marquee {background-color: #473124;}",
+        ".marquee-text {color: #fff;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"marquee\">\n<h4 class=\"marquee-text\">\nFINE PURVEYORS OF GREAT FRESH ROASTED COFFEE SINCE 1987\n<\/h4>\n<\/div>"
+      }
+    },
     "home-image-with-text-2": {
       "type": "home-image-with-text",
       "custom_css": [
@@ -319,10 +322,10 @@
     "home-slideshow-1",
     "815321eb-24de-43d0-b0e0-17379d118bb0",
     "f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6",
-    "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56",
     "085b0d36-8019-45c6-9d08-810c33d3f52f",
     "home-image-gallery-1",
     "home-featured-collection-1",
+    "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56",
     "home-image-with-text-2",
     "home-image-with-text-1",
     "1676063843ade6aad8",
