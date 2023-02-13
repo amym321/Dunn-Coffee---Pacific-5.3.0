@@ -1,7 +1,38 @@
 {
   "sections": {
+    "410d711e-de16-4924-a43d-d355aced8528": {
+      "type": "home-slideshow",
+      "blocks": {
+        "template--16717869383936__410d711e-de16-4924-a43d-d355aced8528-167626170159dbb1b3-0": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dunn_coffee_banner_6.png",
+            "image-mobile": "shopify:\/\/shop_images\/dunn_coffee_banner_5.png",
+            "content-alignment": "center",
+            "title-heading": "Slideshow",
+            "text-above": "",
+            "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "url": "",
+            "text-color": "#ffffff",
+            "text-shadow": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16717869383936__410d711e-de16-4924-a43d-d355aced8528-167626170159dbb1b3-0"
+      ],
+      "settings": {
+        "title": "",
+        "border": false,
+        "layout": "full-width",
+        "transition": "transition-fade",
+        "autoplay_enable": false,
+        "autoplay_delay": 4
+      }
+    },
     "home-slideshow-1": {
       "type": "home-slideshow",
+      "disabled": true,
       "blocks": {
         "block-1": {
           "type": "feature",
@@ -274,6 +305,7 @@
     }
   },
   "order": [
+    "410d711e-de16-4924-a43d-d355aced8528",
     "home-slideshow-1",
     "815321eb-24de-43d0-b0e0-17379d118bb0",
     "f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6",
