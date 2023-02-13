@@ -252,7 +252,7 @@
     "home-image-with-text-2": {
       "type": "home-image-with-text",
       "custom_css": [
-        ".home-module {\/*background-color: #f7f6f1;*\/ margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;}"
+        ".home-module {background-image: url(\"\/\/cdn.shopify.com\/s\/files\/1\/2467\/6817\/files\/bg_tan_speckle.jpg?v=1675983960\"); \/*background-color: #f7f6f1;*\/ margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;}"
       ],
       "settings": {
         "title": "",
@@ -265,7 +265,7 @@
     "home-image-with-text-1": {
       "type": "home-image-with-text",
       "custom_css": [
-        ".home-module {\/*background-color: #f7f6f1;*\/ padding-bottom: 50px;}"
+        ".home-module {background-image: url('\/\/cdn.shopify.com\/s\/files\/1\/2467\/6817\/files\/bg_tan_speckle.jpg?v=1675983960'); \/*background-color: #f7f6f1;*\/ padding-bottom: 50px;}"
       ],
       "settings": {
         "title": "",
