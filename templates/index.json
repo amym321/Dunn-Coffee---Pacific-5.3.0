@@ -279,7 +279,7 @@
     "home-image-with-text-1": {
       "type": "home-image-with-text",
       "custom_css": [
-        ".home-module {padding-bottom: 50px; margin-bottom: 0;}"
+        ".home-module {padding-top: 50px; padding-bottom: 50px; margin-bottom: 0;}"
       ],
       "settings": {
         "title": "",
