@@ -6,6 +6,7 @@
         "block-1": {
           "type": "feature",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DB_CoffeeBag.jpg",
             "content-alignment": "center",
             "title-heading": "Coffee Dunn Right is one of life’s greatest pleasures",
             "text-above": "",
@@ -14,10 +15,24 @@
             "text-color": "#473124",
             "text-shadow": true
           }
+        },
+        "a2da5ca4-ddcf-4de6-814a-17ac18a4d4f9": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Valentine_s_Day_1.png",
+            "content-alignment": "center",
+            "title-heading": "Slideshow",
+            "text-above": "",
+            "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "url": "",
+            "text-color": "#ffffff",
+            "text-shadow": false
+          }
         }
       },
       "block_order": [
-        "block-1"
+        "block-1",
+        "a2da5ca4-ddcf-4de6-814a-17ac18a4d4f9"
       ],
       "settings": {
         "title": "",
