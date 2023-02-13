@@ -253,9 +253,7 @@
     "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56": {
       "type": "custom-liquid",
       "custom_css": [
-        ".custom-liquid {background-color: #473124; margin-bottom: 0 !important;}",
-        ".marquee {padding: 2px 0;}",
-        ".marquee-text {color: #fff;}"
+        ".custom-liquid {background-color: #473124; margin-bottom: 0 !important;}"
       ],
       "settings": {
         "custom_liquid": "<div class=\"marquee\">\n<p class=\"marquee-text\">\nPURVEYORS OF FRESH ROASTED COFFEE NICELY DUNN SINCE 1987\n<\/p>\n<\/div>"
