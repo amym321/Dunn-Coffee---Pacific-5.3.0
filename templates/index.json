@@ -151,7 +151,7 @@
         "block-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dunn-coffee-icon.gif",
+            "image": "shopify:\/\/shop_images\/Dunn-coffee-cup.gif",
             "title": "Freshly Roasted",
             "text-above": "",
             "text-below": "Our certified roasters have a passion for hand roasting. We roast our beans just right to develop the freshest coffee with bold, diverse flavors.",
@@ -163,7 +163,7 @@
         "block-2": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_6.jpg",
+            "image": "shopify:\/\/shop_images\/Dunn-coffee-beans.gif",
             "title": "Small Batch Roasting",
             "text-above": "",
             "text-below": "Our commitment to small batches of roasting ensures consistency in providing the richest  premium coffee you can have.",
@@ -175,7 +175,7 @@
         "2c1b5d83-e152-4e83-9796-73da043709f8": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/1_6.jpg",
+            "image": "shopify:\/\/shop_images\/Dunn-ethically-sourced.gif",
             "title": "Ethically Sourced",
             "text-above": "",
             "text-below": "We are dedicated to offering exceptional coffees while rewarding the farmer, protecting the environment, and bettering our communities.",
