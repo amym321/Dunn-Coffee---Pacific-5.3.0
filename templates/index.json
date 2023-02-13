@@ -258,7 +258,7 @@
         ".marquee-text {color: #fff;}"
       ],
       "settings": {
-        "custom_liquid": "<div class=\"marquee\">\n<h4 class=\"marquee-text\">\nFINE PURVEYORS OF GREAT FRESH ROASTED COFFEE SINCE 1987\n<\/h4>\n<\/div>"
+        "custom_liquid": "<div class=\"marquee\">\n<h4 class=\"marquee-text\">\nFINE PURVEYORS OF GREAT, FRESH ROASTED COFFEE SINCE 1987\n<\/h4>\n<\/div>"
       }
     },
     "home-image-with-text-2": {
