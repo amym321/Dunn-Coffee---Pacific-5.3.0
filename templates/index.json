@@ -6,10 +6,10 @@
         "block-1": {
           "type": "feature",
           "settings": {
-            "content-alignment": "left",
+            "content-alignment": "center",
             "title-heading": "Coffee Dunn Right is one of life’s greatest pleasures",
             "text-above": "",
-            "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "text-below": "",
             "url": "",
             "text-color": "#473124",
             "text-shadow": true
