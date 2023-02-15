@@ -3,7 +3,14 @@
     <h4>{{ block.settings.title | escape }}</h4>
   {% endif %}
 
-  <div class="rte">
-    {{ block.settings.footer-text-box }}
-  </div>
+  {% if block.settings.footer-text-box != blank %}
+    <div class="rte">
+      {{ block.settings.footer-text-box }}
+    </div>
+  {% endif %}
+
+  {% if block.settings.image != blank %}
+    <img class="footer-image" src="{{ block.settings.image  | img_url: '400x400' }}">
+  {% endif %}
+
 </div>
