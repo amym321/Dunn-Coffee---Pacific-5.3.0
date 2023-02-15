@@ -250,6 +250,16 @@
         "product_image_flip": true
       }
     },
+    "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56": {
+      "type": "custom-liquid",
+      "custom_css": [
+        ".custom-liquid {background-color: #473124; margin-bottom: 0 !important;}",
+        ".home-module {padding-left: 0px; padding-right: 0px;}"
+      ],
+      "settings": {
+        "custom_liquid": "<div class=\"marquee\">\n<div class=\"marquee-block\">\n<p class=\"marquee-text\">\n<span>FRESH ROASTED <\/span>COFFEE NICELY DUNN SINCE 1987\n<\/p>\n\n<\/div>\n<\/div>"
+      }
+    },
     "8d5d914c-b661-487e-9824-0e2019e2903d": {
       "type": "home-collection-list",
       "blocks": {
@@ -286,16 +296,6 @@
       "settings": {
         "title": "SHOP BY ROAST",
         "border": false
-      }
-    },
-    "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56": {
-      "type": "custom-liquid",
-      "custom_css": [
-        ".custom-liquid {background-color: #473124; margin-bottom: 0 !important;}",
-        ".home-module {padding-left: 0px; padding-right: 0px;}"
-      ],
-      "settings": {
-        "custom_liquid": "<div class=\"marquee\">\n<div class=\"marquee-block\">\n<p class=\"marquee-text\">\n<span>FRESH ROASTED <\/span>COFFEE NICELY DUNN SINCE 1987\n<\/p>\n\n<\/div>\n<\/div>"
       }
     },
     "home-image-with-text-2": {
@@ -363,8 +363,8 @@
     "085b0d36-8019-45c6-9d08-810c33d3f52f",
     "home-image-gallery-1",
     "home-featured-collection-1",
-    "8d5d914c-b661-487e-9824-0e2019e2903d",
     "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56",
+    "8d5d914c-b661-487e-9824-0e2019e2903d",
     "home-image-with-text-2",
     "home-image-with-text-1",
     "3b01602a-b285-4148-b196-b951c94d4f72",
