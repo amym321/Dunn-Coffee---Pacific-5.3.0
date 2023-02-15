@@ -293,6 +293,9 @@
         "template--16717869383936__8d5d914c-b661-487e-9824-0e2019e2903d-1676423812e5220bde-1",
         "template--16717869383936__8d5d914c-b661-487e-9824-0e2019e2903d-1676423812e5220bde-2"
       ],
+      "custom_css": [
+        ".home-collection-list-item-content {text-shadow: 0 0 10px rgb(0 0 0 \/ 80%);}"
+      ],
       "settings": {
         "title": "SHOP BY ROAST",
         "border": false
