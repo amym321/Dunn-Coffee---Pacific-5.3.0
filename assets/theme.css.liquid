@@ -12889,6 +12889,11 @@ shopify-payment-terms {
   margin: auto;
   width: 25%;
 }
+            /* in lieu of loader on icon gifs*/
+.icon-gallery .home-feature-image
+.icon-gallery img {
+  background-color: #e6dec1;
+}
 
 
 /* custom section - marquee */
@@ -12897,7 +12902,7 @@ shopify-payment-terms {
   display: block;
 
   /* width: 420px; */
-  height: 80px;
+  height: 73px;
   overflow: hidden;
   position: relative;
 }
@@ -12972,6 +12977,32 @@ shopify-payment-terms {
   100% { left: -38em; } */
 }
 
+/* featured collection */
+.home-featured-collection  .home-module-content .section-title {
+  font-size: var(--font-size-heading-2-capitalize);
+}
+
+/* homepage collection list */
+.home-collection-list  .home-module-content .section-title {
+  font-size: var(--font-size-heading-2-capitalize);
+}
+
+.home-featured-collection .home-featured-collection-list .product-list-item-vendor a{
+  font-size: 13px;
+  color:#db2327;
+}
+@media (min-width:721px) {
+  .home-module.home-collection-list {
+    margin-bottom: 4rem;
+  }
+}
+@media (max-width:721px) {
+  .home-collection-list .home-collection-list-item {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
 
 
 /* Image with text */
@@ -12981,12 +13012,17 @@ shopify-payment-terms {
   background-image: url('//cdn.shopify.com/s/files/1/2467/6817/files/bg_tan_speckle.jpg?v=1675983960');
 }
 
+      /*added CTA*/
+.cta {
+  margin-top: var(--space-x-large);
+  margin-bottom: var(--space-x-large) !important;
+}
 
 
 /* newsletter */
 
 .pxs-newsletter {
-  background-color: #e6dec1;
+  /* background-color: #e6dec1; */
   /* padding-left: 30px; */
   margin: 0;
   width: 100%;
@@ -13014,12 +13050,29 @@ shopify-payment-terms {
 }
 
 
+/* instafeed */
+#insta-feed {
+  background-color: #e6dec1;
+  padding: 40px 0;
+}
+@media (max-width:720px) {
+  #insta-feed {
+    padding: 10px 0 25px;
+  }
+}
+@media (min-width:721px) {
+  #insta-feed h2 {
+    font-size:33px;
+  }
+}
+
+
 /* footer */
           /* add back if needing to remove white space above footer 
           waiting on Instafeed to be above footer*/
-/* .main-footer {   
+.main-footer {   
   margin-top: 0;
-} */
+}
 
 #shopify-section-footer {
   background-color: #473124;  /* #db2327 !important; */
@@ -13055,7 +13108,7 @@ footer h4,
 .social-icon {
   height:55px;
   width: 55px;
-  border:solid 3.5px #fff;
+  border:solid 3px #fff;
   border-radius: 50%;
   padding-right: 10px;
 }
@@ -13085,8 +13138,17 @@ footer h4,
 }
 
 
+/* PRODUCT PAGE */
+.product__description {
+  text-align: left;
+  margin: 35px auto 0;
+  padding-top: 35px;
+  border-top: 1px solid #e5e5e5;
+}
 
-
+.recommended-products .section-title {
+  font-size: var(--font-size-heading-3-capitalize);
+}
 
 
 

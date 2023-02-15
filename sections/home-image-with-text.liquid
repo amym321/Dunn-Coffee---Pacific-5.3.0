@@ -49,6 +49,16 @@
               <p>{{ 'onboarding.featured_content.page_excerpt' | t }}</p>
             {% endif %}
           {% endif %}
+
+          {% comment %} add call to action - am {% endcomment %}
+          {% if section.settings.image-text-url != "" and section.settings.button-text  != "" %}
+            <p class="cta">
+              <a class="button" href="{{ section.settings.image-text-url }}">
+                {{ section.settings.button-text}}
+              </a>
+            </p>
+          {% endif %}
+
         </div>
 
         <div class="home-embedded-content rte">
@@ -117,6 +127,16 @@
         }
       ],
       "default": "right"
+    },
+    {
+      "type": "text",
+      "id": "button-text",
+      "label": "Button text"
+    },
+    {
+      "type": "url",
+      "id": "image-text-url",
+      "label": "Link"
     }
   ],
   "presets": [
