@@ -313,7 +313,9 @@
         "image_title": "Subscribe & Save!",
         "caption": "<p>Enjoy <strong>FREE SHIPPING<\/strong> with our subscriptions. Get our fresh, small-batch coffee delivered directly to you and save on shipping. Choose how much and how often you want to receive your coffee.<\/p>",
         "image": "shopify:\/\/shop_images\/203932198_831943484418332_5898452473339516523_n.jpg",
-        "image-alignment": "left"
+        "image-alignment": "left",
+        "button-text": "shop now",
+        "image-text-url": "shopify:\/\/collections\/subscription-coffees"
       }
     },
     "home-image-with-text-1": {
@@ -326,7 +328,9 @@
         "border": false,
         "image_title": "GIVE THE GIFT OF GOOD TASTE",
         "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
-        "image-alignment": "right"
+        "image-alignment": "right",
+        "button-text": "",
+        "image-text-url": ""
       }
     },
     "3b01602a-b285-4148-b196-b951c94d4f72": {
