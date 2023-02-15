@@ -51,6 +51,12 @@
           "settings": {
             "position": "right"
           }
+        },
+        "83545abc-36ea-4eb3-be2b-3564f127717a": {
+          "type": "share",
+          "settings": {
+            "position": "right"
+          }
         }
       },
       "block_order": [
@@ -61,7 +67,8 @@
         "variant_selection",
         "e913a8d3-a0af-4756-8566-f3361023d4a5",
         "form",
-        "description"
+        "description",
+        "83545abc-36ea-4eb3-be2b-3564f127717a"
       ],
       "settings": {
         "enable_zoom": true,
