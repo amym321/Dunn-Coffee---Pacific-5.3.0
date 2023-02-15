@@ -68,8 +68,9 @@
           "8464aa74-4f77-47a2-85e7-4f09f2d9d299": {
             "type": "featured-content",
             "settings": {
-              "title": "Coffee Nicely Dunn since 1987",
-              "footer-text-box": ""
+              "title": "",
+              "footer-text-box": "",
+              "image": "shopify:\/\/shop_images\/dunn-brothers-logo-white_ca8c745a-a53b-4fcf-a56a-784b53c83054.png"
             }
           },
           "1559668401188": {
