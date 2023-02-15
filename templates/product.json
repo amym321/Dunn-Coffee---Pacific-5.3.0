@@ -34,6 +34,12 @@
             "position": "right"
           }
         },
+        "e913a8d3-a0af-4756-8566-f3361023d4a5": {
+          "type": "quantity",
+          "settings": {
+            "position": "right"
+          }
+        },
         "form": {
           "type": "form",
           "settings": {
@@ -53,6 +59,7 @@
         "gallery",
         "price",
         "variant_selection",
+        "e913a8d3-a0af-4756-8566-f3361023d4a5",
         "form",
         "description"
       ],
