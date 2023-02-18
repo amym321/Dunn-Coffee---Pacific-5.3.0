@@ -85,6 +85,9 @@
         "template--16717869383936__815321eb-24de-43d0-b0e0-17379d118bb0-16760670499311bab6-0",
         "template--16717869383936__815321eb-24de-43d0-b0e0-17379d118bb0-16760670499311bab6-1"
       ],
+      "custom_css": [
+        ".home-collection-list-item-content h3 {text-shadow: #fff 1px 0 3px;}"
+      ],
       "settings": {
         "title": "",
         "border": false
