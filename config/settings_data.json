@@ -88,7 +88,7 @@
           "1559668401188"
         ],
         "custom_css": [
-          "footer h4, .main-footer h4 {}"
+          ".main-footer h4 {font-size: 18px;}"
         ],
         "settings": {
           "show-payment-options": false,
