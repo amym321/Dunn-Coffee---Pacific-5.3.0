@@ -87,6 +87,9 @@
           "8464aa74-4f77-47a2-85e7-4f09f2d9d299",
           "1559668401188"
         ],
+        "custom_css": [
+          "footer h4, .main-footer h4 {}"
+        ],
         "settings": {
           "show-payment-options": false,
           "show_locale_selector": false,
