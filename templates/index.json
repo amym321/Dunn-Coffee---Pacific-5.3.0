@@ -324,6 +324,15 @@
         "image-text-url": "shopify:\/\/collections\/subscription-coffees"
       }
     },
+    "3b01602a-b285-4148-b196-b951c94d4f72": {
+      "type": "pxs-newsletter",
+      "settings": {
+        "title": "NEVER MISS AN OFFER",
+        "text": "<p>Sign up for our newsletter and get the latest on offers & new products.<\/p>",
+        "desktop_alignment": "left",
+        "mobile_alignment": "top"
+      }
+    },
     "home-image-with-text-1": {
       "type": "home-image-with-text",
       "custom_css": [
@@ -338,15 +347,6 @@
         "image-alignment": "right",
         "button-text": "give a gift",
         "image-text-url": "shopify:\/\/products\/gift-card-5-100"
-      }
-    },
-    "3b01602a-b285-4148-b196-b951c94d4f72": {
-      "type": "pxs-newsletter",
-      "settings": {
-        "title": "NEVER MISS AN OFFER",
-        "text": "<p>Sign up for our newsletter and get the latest on offers & new products.<\/p>",
-        "desktop_alignment": "left",
-        "mobile_alignment": "top"
       }
     },
     "1676063843ade6aad8": {
@@ -379,8 +379,8 @@
     "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56",
     "8d5d914c-b661-487e-9824-0e2019e2903d",
     "home-image-with-text-2",
-    "home-image-with-text-1",
     "3b01602a-b285-4148-b196-b951c94d4f72",
+    "home-image-with-text-1",
     "1676063843ade6aad8"
   ]
 }
