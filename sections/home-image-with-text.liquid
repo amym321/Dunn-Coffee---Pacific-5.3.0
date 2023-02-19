@@ -52,11 +52,21 @@
 
           {% comment %} add call to action - am {% endcomment %}
           {% if section.settings.image-text-url != "" and section.settings.button-text  != "" %}
-            <p class="cta">
-              <a class="button" href="{{ section.settings.image-text-url }}">
-                {{ section.settings.button-text}}
-              </a>
-            </p>
+            <div class="element-with-bean" >
+
+              <p class="cta">
+                <a class="button" href="{{ section.settings.image-text-url }}">
+                  {{ section.settings.button-text}}
+                </a>
+              </p>
+
+              <div class="bean-right">
+                <div data-pf-type="Image" class="bean-wrapper-right">
+                  <img class="bean-img" src="https://cdn.shopify.com/s/files/1/2467/6817/files/dunn-bean-6b.png?v=1676846225" width="720" height="720"   >
+                </div>
+              </div>
+    
+            </div>
           {% endif %}
 
         </div>

@@ -35,18 +35,40 @@
   {% endif %}
 
   <div class="pxs-newsletter-content">
-    <div class="pxs-newsletter-header">
-      {% if section.settings.title != blank %}
-        <h2 class="pxs-newsletter-heading">
-          {{ section.settings.title | escape }}
-        </h2>
-      {% endif %}
 
-      {% if section.settings.text != blank %}
-        <div class="pxs-newsletter-text">
-          {{ section.settings.text }}
+    {% comment %} rotating beans - am {% endcomment %}
+    <div class="element-with-bean" >
+
+      <div class="bean-left">
+        <div data-pf-type="Image" class="bean-wrapper-left">
+          <img class="bean-img" src="https://cdn.shopify.com/s/files/1/2467/6817/files/dunn-bean-5b.png?v=1676843734" width="720" height="720"  >
         </div>
-      {% endif %}
+      </div>
+
+      <div class="pxs-newsletter-header">
+
+        <div>
+          {% if section.settings.title != blank %}
+            <h2 class="pxs-newsletter-heading">
+              {{ section.settings.title | escape }}
+            </h2>
+          {% endif %}
+
+          {% if section.settings.text != blank %}
+            <div class="pxs-newsletter-text">
+              {{ section.settings.text }}
+            </div>
+          {% endif %}
+        </div>
+
+      </div>
+
+      <div class="bean-right">
+        <div data-pf-type="Image" class="bean-wrapper-right">
+          <img class="bean-img" src="https://cdn.shopify.com/s/files/1/2467/6817/files/dunn-bean-7b.png?v=1676843728"  width="720" height="720"   >
+        </div>
+      </div>
+
     </div>
 
     {%

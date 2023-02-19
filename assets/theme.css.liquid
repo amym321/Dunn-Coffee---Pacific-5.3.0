@@ -12890,7 +12890,7 @@ shopify-payment-terms {
   width: 25%;
 }
             /* in lieu of loader on icon gifs*/
-.icon-gallery .home-feature-image
+.icon-gallery .home-feature-image,
 .icon-gallery img {
   background-color: #e6dec1;
 }
@@ -12993,7 +12993,7 @@ shopify-payment-terms {
 }
 @media (min-width:721px) {
   .home-module.home-collection-list {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
 }
 @media (max-width:721px) {
@@ -13150,6 +13150,93 @@ footer h4,
   margin-right: auto;
   width: 50%;
 }
+
+/* rotating bean */
+.element-with-bean {
+  display: flex;
+}
+@media (max-width: 720px) {
+  .pxs-newsletter .element-with-bean {
+    display: block;
+  }
+}
+
+.image-text  .bean-right {
+  margin-left: 10vw;
+}
+@media (min-width: 721px) {
+  .bean-left {
+    margin-right: 10vw;
+  }
+  .bean-right {
+    margin-left: 10vw;
+  }
+}
+@media (max-width: 720px) {
+  .bean-left {
+    margin-left: 10vw;
+  }
+  .pxs-newsletter  .bean-right {
+    display: none;
+  }
+}
+
+@media (min-width: 720px) {
+  .bean-right {
+    height: 2px;
+  }
+  .pxs-newsletter .bean-right {
+    transform: translatey(120px);
+  }
+  .image-text  .bean-right {
+    transform: translatey(50px);
+  }
+}
+
+.bean-wrapper-left,
+.bean-wrapper-right {
+  height: auto; 
+  width: 75px; 
+  /* display: inline-block;
+  max-width: 100%; 
+  position: relative; */
+}
+.bean-wrapper-left {
+  animation: rotation-1 10s linear infinite; 
+}
+.bean-wrapper-right {
+  animation: rotation-2 10s linear infinite; 
+}
+
+@-webkit-keyframes rotation-1 {
+  from {
+      -webkit-transform: rotate(0deg);
+  }
+  to {
+      -webkit-transform: rotate(359deg);
+  }
+}
+@-webkit-keyframes rotation-2 {
+  from {
+      -webkit-transform: rotate(359deg);
+  }
+  to {
+      -webkit-transform: rotate(0deg);
+  }
+}
+
+.bean-img {
+  height: auto; 
+  /* width: 100%; 
+  border-radius: inherit; 
+  max-width: 100%;
+  border: 0;   */
+  vertical-align: middle; 
+  aspect-ratio: auto 720 / 720; 
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+
 
 
 /* PRODUCT PAGE */
