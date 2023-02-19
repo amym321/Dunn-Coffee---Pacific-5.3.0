@@ -246,7 +246,7 @@
     "home-featured-collection-1": {
       "type": "home-featured-collection",
       "custom_css": [
-        ".has-border .home-module-content {}"
+        ".home-module-content {border-top: 1px solid #ffffff00;}"
       ],
       "settings": {
         "title": "Treat yourself to our bestsellers",
