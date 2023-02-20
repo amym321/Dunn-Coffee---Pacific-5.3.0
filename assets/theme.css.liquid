@@ -11962,6 +11962,12 @@ input[type=button].cart-shipping-calculator__button.secondary {
   width: 33%;
   text-align: left;
 }
+/* fit option title - am */
+@media (min-width: 721px) and (max-width: 1460px) {
+  .product-options .inline-field-wrapper {
+      width: 50%;
+  }
+}
 @media (max-width: 720px) {
   .product-options .input-wrapper,
 .product-options .inline-field-wrapper {
@@ -12900,9 +12906,8 @@ shopify-payment-terms {
 .marquee {
   padding: 2px 0;
   display: block;
-
   /* width: 420px; */
-  height: 73px;
+  height: 80px;
   overflow: hidden;
   position: relative;
 }
@@ -12955,7 +12960,11 @@ shopify-payment-terms {
         225ch 0 currentColor,
         300ch 0 currentColor,
         375ch 0 currentColor,
-        425ch 0 currentColor;
+        450ch 0 currentColor,
+        525ch 0 currentColor,
+        600ch 0 currentColor,
+        675ch 0 currentColor,
+        750ch 0 currentColor;
 }
 @media (max-width:720px) {
   .marquee-text  {
@@ -12966,7 +12975,10 @@ shopify-payment-terms {
           200ch 0 currentColor,
           250ch 0 currentColor,
           300ch 0 currentColor,
-          350ch 0 currentColor;
+          350ch 0 currentColor,
+          400ch 0 currentColor,
+          450ch 0 currentColor,
+          500ch 0 currentColor;
     }
 }
 
@@ -12987,10 +12999,6 @@ shopify-payment-terms {
   font-size: var(--font-size-heading-2-capitalize);
 }
 
-.home-featured-collection .home-featured-collection-list .product-list-item-vendor a{
-  font-size: 13px;
-  color:#db2327;
-}
 @media (min-width:721px) {
   .home-module.home-collection-list {
     margin-bottom: 6rem;
@@ -13077,9 +13085,9 @@ shopify-payment-terms {
 /* footer */
           /* add back if needing to remove white space above footer 
           waiting on Instafeed to be above footer*/
-.main-footer {   
+/* .main-footer {   
   margin-top: 0;
-}
+} */
 
 #shopify-section-footer {
   background-color: #473124;  /* #db2327 !important; */
@@ -13250,6 +13258,81 @@ footer h4,
 .recommended-products .section-title {
   font-size: var(--font-size-heading-3-capitalize);
 }
+
+.product__vendor {
+  font-size: 16px;
+  color: #db2327;
+}
+
+.template-product .pxs-newsletter .bean-left, 
+.template-product .pxs-newsletter .bean-right {
+    display:none;
+}
+
+.template-product .pxs-newsletter,
+.template-product .pxs-newsletter h2 {
+  color: #fff;
+}
+
+.template-product .pxs-newsletter {
+  background-color: #db2327;
+  background-image: url('//cdn.shopify.com/s/files/1/2467/6817/files/coffee_cup_2d.png?v=1676854729');
+  background-position-x: left;
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.template-product .pxs-newsletter {
+  transform: translate(-320px,60px);
+  min-width: 150%; 
+}
+
+@media (max-width: 1800px) {
+  .template-product .pxs-newsletter {
+    transform: translate(-200px, 60px);
+    min-width: 130%;
+  }
+}
+@media (max-width: 1661px) {
+  .template-product .pxs-newsletter {
+    transform: translate(-180px, 60px);
+    min-width: 130%;
+  }
+}
+@media (max-width: 1660px) {
+  .template-product .pxs-newsletter {
+    transform: translate(-120px, 60px);
+    min-width: 118%;
+  }
+}
+@media (max-width: 1520px) {
+  .template-product .pxs-newsletter {
+    transform: translate(-50px, 60px);
+    min-width: 112%;
+  }
+}
+@media (max-width: 1020px) {
+  .template-product .pxs-newsletter {
+    min-width: 112%;
+    transform: translate(-40px, 60px);
+  }
+}
+@media (max-width: 720px) {
+  .template-product .pxs-newsletter {
+    transform: translate(-20px,60px);
+  }
+}
+
+
+/* GLOBALLY */
+.product-list-item-vendor a{
+  font-size: 13px;
+  color:#db2327;
+}
+
+
+
+
 
 
 
