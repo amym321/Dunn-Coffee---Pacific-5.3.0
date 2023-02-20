@@ -15,7 +15,7 @@
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/coffee",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         },
@@ -27,7 +27,7 @@
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/single-serve-pods",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         }
@@ -39,7 +39,7 @@
       "settings": {
         "title": "",
         "border": false,
-        "text-shadow": true
+        "text-shadow": false
       }
     },
     "c7f7e992-a3c3-46c6-914b-be95ce822810": {
@@ -52,7 +52,7 @@
             "text-above": "",
             "text-below": "",
             "url": "",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         },
