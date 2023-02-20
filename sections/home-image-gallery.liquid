@@ -50,7 +50,7 @@
               {% endif %}
             {%- endcapture -%}
 
-            <div class="home-feature">
+          <div class="home-feature {% if block.settings.title contains 'NO IMAGE' %} hide {% endif %}">
               <div class="home-feature-image">
                 {{- image_html -}}
               </div>
@@ -141,7 +141,8 @@
           "type": "text",
           "id": "title",
           "label": "Heading",
-          "default": "Image with text"
+          "default": "Image with text",
+          "info": "Enter NO IMAGE if this block to be empty"
         },
         {
           "type": "text",
