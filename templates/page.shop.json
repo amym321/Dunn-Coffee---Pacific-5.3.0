@@ -3,7 +3,7 @@
     "main": {
       "type": "page-page",
       "custom_css": [
-        ".page-title {margin-bottom: 80px; color:red;}"
+        ".page-title {margin-bottom: 80px;}"
       ],
       "settings": {
       }
