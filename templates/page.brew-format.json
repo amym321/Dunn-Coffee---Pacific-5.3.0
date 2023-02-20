@@ -11,10 +11,10 @@
         "template--16723888570624__8f965ba8-1d40-4e5d-8493-d29f5f7a9dab-16768615350a9517b7-0": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
+            "title": "COFFEE",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/coffee",
             "text-color": "light",
             "text-position": "center"
           }
