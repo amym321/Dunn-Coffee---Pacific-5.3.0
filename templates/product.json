@@ -82,23 +82,10 @@
         "product_recommendations_heading": "You may also like",
         "products_in_row": 4
       }
-    },
-    "8fd3c82b-2d51-42b5-954c-f4ca375ebc14": {
-      "type": "home-image-with-text",
-      "settings": {
-        "title": "Image with text",
-        "border": false,
-        "image_title": "Rich text",
-        "caption": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
-        "image-alignment": "right",
-        "button-text": "",
-        "image-text-url": ""
-      }
     }
   },
   "order": [
     "main",
-    "product-recommendations",
-    "8fd3c82b-2d51-42b5-954c-f4ca375ebc14"
+    "product-recommendations"
   ]
 }
