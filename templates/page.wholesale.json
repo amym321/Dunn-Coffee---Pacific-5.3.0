@@ -25,11 +25,11 @@
         "template--16723888668928__fdc95241-13eb-4ea5-9794-4c8b32527607-1676867131d2df2b01-1": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
-            "text-color": "light",
+            "title": "CANTEEN",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/canteen-coffee-orders",
+            "text-color": "dark",
             "text-position": "center"
           }
         }
