@@ -82,10 +82,20 @@
         "product_recommendations_heading": "You may also like",
         "products_in_row": 4
       }
+    },
+    "5b6e826e-2c27-4377-8117-617d11732b31": {
+      "type": "pxs-newsletter",
+      "settings": {
+        "title": "Newsletter",
+        "text": "<p>Invite customers to join your mailing list.<\/p>",
+        "desktop_alignment": "left",
+        "mobile_alignment": "top"
+      }
     }
   },
   "order": [
     "main",
-    "product-recommendations"
+    "product-recommendations",
+    "5b6e826e-2c27-4377-8117-617d11732b31"
   ]
 }
