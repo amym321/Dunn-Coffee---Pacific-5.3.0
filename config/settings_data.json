@@ -52,7 +52,7 @@
     "checkout_body_background_color": "#ffffff",
     "checkout_sidebar_background_color": "#f7f6f1",
     "checkout_accent_color": "#1773b0",
-    "checkout_button_color": "#c6aa7b",
+    "checkout_button_color": "#db2327",
     "product-show-share-buttons": false,
     "sections": {
       "footer": {
