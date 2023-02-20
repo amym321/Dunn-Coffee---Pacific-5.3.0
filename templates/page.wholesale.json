@@ -43,10 +43,48 @@
         "border": false,
         "text-shadow": false
       }
+    },
+    "c61e669a-a8e3-42c1-92f0-b70b58a87ffc": {
+      "type": "home-image-gallery",
+      "disabled": true,
+      "blocks": {
+        "template--16723888668928__c61e669a-a8e3-42c1-92f0-b70b58a87ffc-1676867131d2df2b01-0": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        },
+        "template--16723888668928__c61e669a-a8e3-42c1-92f0-b70b58a87ffc-1676867131d2df2b01-1": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16723888668928__c61e669a-a8e3-42c1-92f0-b70b58a87ffc-1676867131d2df2b01-0",
+        "template--16723888668928__c61e669a-a8e3-42c1-92f0-b70b58a87ffc-1676867131d2df2b01-1"
+      ],
+      "settings": {
+        "title": "Image gallery",
+        "border": false,
+        "text-shadow": true
+      }
     }
   },
   "order": [
     "main",
-    "fdc95241-13eb-4ea5-9794-4c8b32527607"
+    "fdc95241-13eb-4ea5-9794-4c8b32527607",
+    "c61e669a-a8e3-42c1-92f0-b70b58a87ffc"
   ]
 }
