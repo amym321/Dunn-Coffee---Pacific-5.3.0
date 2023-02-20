@@ -115,11 +115,12 @@
         "template--16723888636160__5181a725-5c64-426b-b14f-39cf7b359cba-1676867131d2df2b01-1": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
-            "text-color": "light",
+            "image": "shopify:\/\/shop_images\/DB-coffee-pods.jpg",
+            "title": "SINGLE SERVE PODS",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/single-serve-pods",
+            "text-color": "dark",
             "text-position": "center"
           }
         }
