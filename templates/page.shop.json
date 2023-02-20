@@ -74,7 +74,8 @@
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-1": {
           "type": "feature",
           "settings": {
-            "title": "DECAF",
+            "image": "shopify:\/\/shop_images\/decaf-3.jpg",
+            "title": "",
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/decaf",
