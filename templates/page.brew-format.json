@@ -11,6 +11,7 @@
         "template--16723888570624__8f965ba8-1d40-4e5d-8493-d29f5f7a9dab-16768615350a9517b7-0": {
           "type": "feature",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DB-coffee.jpg",
             "title": "COFFEE",
             "text-above": "",
             "text-below": "",
@@ -48,6 +49,7 @@
         "template--16723888570624__c7f7e992-a3c3-46c6-914b-be95ce822810-16768615350a9517b7-0": {
           "type": "feature",
           "settings": {
+            "image": "shopify:\/\/shop_images\/DB-tea.jpg",
             "title": "TEA",
             "text-above": "",
             "text-below": "",
