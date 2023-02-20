@@ -23,24 +23,13 @@
             "text-color": "#ffffff",
             "text-shadow": false
           }
-        },
-        "template--16723888668928__4dddd65b-b734-4965-84ad-bb9e412bce03-16769214503f04b71f-1": {
-          "type": "feature",
-          "disabled": true,
-          "settings": {
-            "content-alignment": "center",
-            "title-heading": "Slideshow",
-            "text-above": "",
-            "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
-            "url": "",
-            "text-color": "#ffffff",
-            "text-shadow": false
-          }
         }
       },
       "block_order": [
-        "template--16723888668928__4dddd65b-b734-4965-84ad-bb9e412bce03-16769214503f04b71f-0",
-        "template--16723888668928__4dddd65b-b734-4965-84ad-bb9e412bce03-16769214503f04b71f-1"
+        "template--16723888668928__4dddd65b-b734-4965-84ad-bb9e412bce03-16769214503f04b71f-0"
+      ],
+      "custom_css": [
+        ".page-title {display: none;}"
       ],
       "settings": {
         "title": "",
