@@ -51,7 +51,7 @@
         "8d30dfe3-7522-4fb0-8b0e-954e68ece870"
       ],
       "settings": {
-        "title": "Image gallery",
+        "title": "",
         "border": false,
         "text-shadow": true
       }
@@ -74,10 +74,10 @@
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-1": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
+            "title": "DECAF",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/decaf",
             "text-color": "light",
             "text-position": "center"
           }
@@ -88,7 +88,7 @@
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-1"
       ],
       "settings": {
-        "title": "Image gallery",
+        "title": "",
         "border": false,
         "text-shadow": true
       }
