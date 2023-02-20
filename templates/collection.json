@@ -7,7 +7,7 @@
         "products_pagination_method": "standard-pagination",
         "products_in_row": 4,
         "rows": 5,
-        "show_featured_image": true,
+        "show_featured_image": false,
         "collection_sorting": true,
         "collection_filtering": true,
         "stock_level_overlay": true,
