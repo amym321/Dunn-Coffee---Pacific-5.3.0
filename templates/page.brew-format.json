@@ -4,9 +4,83 @@
       "type": "page-page",
       "settings": {
       }
+    },
+    "8f965ba8-1d40-4e5d-8493-d29f5f7a9dab": {
+      "type": "home-image-gallery",
+      "blocks": {
+        "template--16723888570624__8f965ba8-1d40-4e5d-8493-d29f5f7a9dab-16768615350a9517b7-0": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        },
+        "template--16723888570624__8f965ba8-1d40-4e5d-8493-d29f5f7a9dab-16768615350a9517b7-1": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16723888570624__8f965ba8-1d40-4e5d-8493-d29f5f7a9dab-16768615350a9517b7-0",
+        "template--16723888570624__8f965ba8-1d40-4e5d-8493-d29f5f7a9dab-16768615350a9517b7-1"
+      ],
+      "settings": {
+        "title": "",
+        "border": false,
+        "text-shadow": true
+      }
+    },
+    "c7f7e992-a3c3-46c6-914b-be95ce822810": {
+      "type": "home-image-gallery",
+      "blocks": {
+        "template--16723888570624__c7f7e992-a3c3-46c6-914b-be95ce822810-16768615350a9517b7-0": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        },
+        "template--16723888570624__c7f7e992-a3c3-46c6-914b-be95ce822810-16768615350a9517b7-1": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16723888570624__c7f7e992-a3c3-46c6-914b-be95ce822810-16768615350a9517b7-0",
+        "template--16723888570624__c7f7e992-a3c3-46c6-914b-be95ce822810-16768615350a9517b7-1"
+      ],
+      "settings": {
+        "title": "",
+        "border": false,
+        "text-shadow": true
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "8f965ba8-1d40-4e5d-8493-d29f5f7a9dab",
+    "c7f7e992-a3c3-46c6-914b-be95ce822810"
   ]
 }
