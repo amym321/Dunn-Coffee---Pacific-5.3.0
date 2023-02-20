@@ -23,10 +23,11 @@
         "template--16723888603392__527692e7-78e7-4cb3-a4b1-f5847101ca19-16768604635783abe7-1": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
+            "image": "shopify:\/\/shop_images\/Medium-Roast-2.jpg",
+            "title": "MEDIUM ROAST",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/light-roast-coffees",
             "text-color": "light",
             "text-position": "center"
           }
