@@ -26,11 +26,11 @@
         "template--16723888636160__5181a725-5c64-426b-b14f-39cf7b359cba-1676867131d2df2b01-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DB-coffee-pods.jpg",
-            "title": "SINGLE SERVE PODS",
+            "image": "shopify:\/\/shop_images\/Subscriptions-and-gifts.jpg",
+            "title": "SUBSCRIPTIONS & GIFTS",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/single-serve-pods",
+            "url": "shopify:\/\/collections\/gifts-subscriptions",
             "text-color": "dark",
             "text-position": "center"
           }
