@@ -10,6 +10,7 @@
     },
     "4dddd65b-b734-4965-84ad-bb9e412bce03": {
       "type": "home-slideshow",
+      "disabled": true,
       "blocks": {
         "template--16723888668928__4dddd65b-b734-4965-84ad-bb9e412bce03-16769214503f04b71f-0": {
           "type": "feature",
@@ -29,7 +30,7 @@
         "template--16723888668928__4dddd65b-b734-4965-84ad-bb9e412bce03-16769214503f04b71f-0"
       ],
       "custom_css": [
-        ".page-title {display: none;}"
+
       ],
       "settings": {
         "title": "",
