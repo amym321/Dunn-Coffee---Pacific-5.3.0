@@ -87,7 +87,8 @@
       ],
       "custom_css": [
         ".home-collection-list-item-content h3 {font-weight: 600; text-shadow: #fff 1px 0 3px;}",
-        ".home-collection-list-item-content h3:hover {text-decoration: underline;}"
+        ".home-collection-list-item-content h3:hover {text-decoration: underline;}",
+        ".home-module-content {max-width: unset;}"
       ],
       "settings": {
         "title": "",
