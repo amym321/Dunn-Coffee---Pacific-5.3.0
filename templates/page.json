@@ -7,6 +7,7 @@
     },
     "e1f37577-af1f-4887-b3ef-2a1bad3a7372": {
       "type": "home-image-gallery",
+      "disabled": true,
       "blocks": {
         "template--16717869187328__e1f37577-af1f-4887-b3ef-2a1bad3a7372-1676067193c652193a-0": {
           "type": "feature",
