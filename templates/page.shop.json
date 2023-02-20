@@ -19,7 +19,7 @@
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/dark-roast-coffees",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         },
@@ -31,7 +31,7 @@
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/medium-roast-coffees",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         },
@@ -56,7 +56,7 @@
       "settings": {
         "title": "",
         "border": false,
-        "text-shadow": true
+        "text-shadow": false
       }
     },
     "f2c397bd-9b62-402a-924e-7795a6f0a6d1": {
@@ -70,7 +70,7 @@
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/light-roast-coffees",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         },
@@ -82,7 +82,7 @@
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/decaf",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         }
@@ -94,7 +94,7 @@
       "settings": {
         "title": "",
         "border": false,
-        "text-shadow": true
+        "text-shadow": false
       }
     }
   },
