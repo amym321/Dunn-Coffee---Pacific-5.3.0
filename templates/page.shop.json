@@ -64,11 +64,12 @@
         "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1": {
           "type": "feature",
           "settings": {
+            "image": "shopify:\/\/shop_images\/Subscriptions-and-gifts.jpg",
             "title": "Subscriptions & Gifts",
             "text-above": "",
             "text-below": "",
             "url": "shopify:\/\/collections\/gifts-subscriptions",
-            "text-color": "light",
+            "text-color": "dark",
             "text-position": "center"
           }
         }
