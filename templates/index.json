@@ -303,7 +303,8 @@
       ],
       "custom_css": [
         ".home-collection-list-item-content {text-shadow: #000 0 0 10px;}",
-        ".home-collection-list-item-content h3 {font-weight: 600;}"
+        ".home-collection-list-item-content h3 {font-weight: 600;}",
+        ".home-module-content {max-width: unset;}"
       ],
       "settings": {
         "title": "SHOP COFFEE BY ROAST",
