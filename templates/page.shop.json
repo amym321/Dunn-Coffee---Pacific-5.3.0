@@ -49,6 +49,18 @@
     "da7957f2-8d63-4961-a0fb-e6e960a5ba03": {
       "type": "home-image-gallery",
       "blocks": {
+        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DB-coffee-pods.jpg",
+            "title": "SINGLE SERVE PODS",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/single-serve-pods",
+            "text-color": "dark",
+            "text-position": "center"
+          }
+        },
         "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-0": {
           "type": "feature",
           "settings": {
@@ -60,23 +72,11 @@
             "text-color": "dark",
             "text-position": "center"
           }
-        },
-        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Subscriptions-and-gifts.jpg",
-            "title": "Subscriptions & Gifts",
-            "text-above": "",
-            "text-below": "",
-            "url": "shopify:\/\/collections\/gifts-subscriptions",
-            "text-color": "dark",
-            "text-position": "center"
-          }
         }
       },
       "block_order": [
-        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-0",
-        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1"
+        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1",
+        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-0"
       ],
       "settings": {
         "title": "",
