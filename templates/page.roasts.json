@@ -62,10 +62,11 @@
         "template--16723888603392__213dae37-7055-4375-913b-e8ac6edc0776-16768615350a9517b7-0": {
           "type": "feature",
           "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
+            "image": "shopify:\/\/shop_images\/Light-Roast-3.jpg",
+            "title": "LIGHT ROAST",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/light-roast-coffees",
             "text-color": "light",
             "text-position": "center"
           }
@@ -87,7 +88,7 @@
         "template--16723888603392__213dae37-7055-4375-913b-e8ac6edc0776-16768615350a9517b7-1"
       ],
       "settings": {
-        "title": "Image gallery",
+        "title": "",
         "border": false,
         "text-shadow": true
       }
