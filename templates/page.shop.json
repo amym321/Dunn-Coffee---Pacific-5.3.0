@@ -31,11 +31,61 @@
             "text-color": "light",
             "text-position": "center"
           }
+        },
+        "8d30dfe3-7522-4fb0-8b0e-954e68ece870": {
+          "type": "feature",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
         }
       },
       "block_order": [
         "template--16723888636160__8ea44c41-521a-4b52-bb21-b36f314acdb0-16768615350a9517b7-0",
-        "template--16723888636160__8ea44c41-521a-4b52-bb21-b36f314acdb0-16768615350a9517b7-1"
+        "template--16723888636160__8ea44c41-521a-4b52-bb21-b36f314acdb0-16768615350a9517b7-1",
+        "8d30dfe3-7522-4fb0-8b0e-954e68ece870"
+      ],
+      "settings": {
+        "title": "Image gallery",
+        "border": false,
+        "text-shadow": true
+      }
+    },
+    "f2c397bd-9b62-402a-924e-7795a6f0a6d1": {
+      "type": "home-image-gallery",
+      "blocks": {
+        "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-0": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Light-Roast-3.jpg",
+            "title": "LIGHT ROAST",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/light-roast-coffees",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        },
+        "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-1": {
+          "type": "feature",
+          "settings": {
+            "title": "Image with text",
+            "text-above": "Subheading",
+            "text-below": "Text",
+            "url": "",
+            "text-color": "light",
+            "text-position": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-0",
+        "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-1"
       ],
       "settings": {
         "title": "Image gallery",
@@ -46,6 +96,7 @@
   },
   "order": [
     "main",
-    "8ea44c41-521a-4b52-bb21-b36f314acdb0"
+    "8ea44c41-521a-4b52-bb21-b36f314acdb0",
+    "f2c397bd-9b62-402a-924e-7795a6f0a6d1"
   ]
 }
