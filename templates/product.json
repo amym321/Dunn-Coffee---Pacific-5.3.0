@@ -27,20 +27,28 @@
             "position": "right"
           }
         },
+        "25e1885b-78d4-4902-9270-486ea8afd31a": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>select <\/p>",
+            "position": "right"
+          }
+        },
         "variant_selection": {
           "type": "variant_selection",
           "settings": {
             "position": "right"
           }
         },
-        "e913a8d3-a0af-4756-8566-f3361023d4a5": {
-          "type": "quantity",
+        "form": {
+          "type": "form",
           "settings": {
             "position": "right"
           }
         },
-        "form": {
-          "type": "form",
+        "e913a8d3-a0af-4756-8566-f3361023d4a5": {
+          "type": "quantity",
           "settings": {
             "position": "right"
           }
@@ -63,9 +71,10 @@
         "vendor",
         "gallery",
         "price",
+        "25e1885b-78d4-4902-9270-486ea8afd31a",
         "variant_selection",
-        "e913a8d3-a0af-4756-8566-f3361023d4a5",
         "form",
+        "e913a8d3-a0af-4756-8566-f3361023d4a5",
         "description",
         "83545abc-36ea-4eb3-be2b-3564f127717a"
       ],
