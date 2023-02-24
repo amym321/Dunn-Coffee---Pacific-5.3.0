@@ -150,6 +150,9 @@
       },
       "pxs-announcement-bar": {
         "type": "pxs-announcement-bar",
+        "custom_css": [
+          ".pxs-announcement-bar-text-desktop {text-transform: uppercase;}"
+        ],
         "settings": {
           "show_announcement": true,
           "announcement_home_only": false,
