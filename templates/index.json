@@ -316,7 +316,8 @@
       "custom_css": [
         ".home-module {background-image: none; background-color: #db2327 !important; color: #fff; margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;}",
         "h2 {color: #fff;}",
-        ".bean-right {display: none;}"
+        ".bean-right {display: none;}",
+        "a {color: #222222; background: #c6aa7b; border-color: #c6aa7b;}"
       ],
       "settings": {
         "title": "",
