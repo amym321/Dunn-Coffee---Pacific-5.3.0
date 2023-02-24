@@ -129,6 +129,9 @@
         "block_order": [
           "1559167474136"
         ],
+        "custom_css": [
+          ".navmenu-link-parent {font-weight: bold;}"
+        ],
         "settings": {
           "header-main-menu": "main-menu",
           "layout": "inline",
