@@ -34,24 +34,11 @@
             "text-color": "dark",
             "text-position": "center"
           }
-        },
-        "af5d6839-a10f-4b89-949d-83cad7aec496": {
-          "type": "feature",
-          "disabled": true,
-          "settings": {
-            "title": "Image with text",
-            "text-above": "Subheading",
-            "text-below": "Text",
-            "url": "",
-            "text-color": "light",
-            "text-position": "center"
-          }
         }
       },
       "block_order": [
         "template--16723888603392__527692e7-78e7-4cb3-a4b1-f5847101ca19-16768604635783abe7-0",
-        "template--16723888603392__527692e7-78e7-4cb3-a4b1-f5847101ca19-16768604635783abe7-1",
-        "af5d6839-a10f-4b89-949d-83cad7aec496"
+        "template--16723888603392__527692e7-78e7-4cb3-a4b1-f5847101ca19-16768604635783abe7-1"
       ],
       "settings": {
         "title": "",
