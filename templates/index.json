@@ -37,8 +37,6 @@
         "block-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/dunn_coffee_banner_4.png",
-            "image-mobile": "shopify:\/\/shop_images\/dunn_coffee_banner_2.png",
             "content-alignment": "center",
             "title-heading": "",
             "text-above": "",
@@ -253,7 +251,7 @@
         "border": false,
         "image_title": "Subscribe & Save!",
         "caption": "<p>Enjoy <strong>FREE SHIPPING<\/strong> with our subscriptions. Get our fresh, small-batch coffee delivered directly to you and save on shipping. Choose how much and how often you want to receive your coffee.<\/p>",
-        "image": "shopify:\/\/shop_images\/203932198_831943484418332_5898452473339516523_n.jpg",
+        "image": "shopify:\/\/shop_images\/dunn-brothers-subscribe-and-save_jpg.jpg",
         "image-alignment": "left",
         "button-text": "choose a subscription",
         "image-text-url": "shopify:\/\/collections\/subscription-coffees"
