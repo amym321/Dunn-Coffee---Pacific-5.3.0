@@ -118,77 +118,6 @@
         "width": "full-width"
       }
     },
-    "085b0d36-8019-45c6-9d08-810c33d3f52f": {
-      "type": "multicolumn",
-      "disabled": true,
-      "blocks": {
-        "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-0": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
-            "title": "Freshly roasted",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-1": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
-            "title": "Small Batch Roasting",
-            "text": "<p>Our commitment to small batches of roasting ensures consistency in providing the richest premium<br\/>coffee you can have.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-2": {
-          "type": "column",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/bg_tan_speckle.jpg",
-            "title": "Ethically Sourced",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        },
-        "9d38af84-479e-4cdb-a155-fb0d20de20d0": {
-          "type": "column",
-          "disabled": true,
-          "settings": {
-            "title": "Column",
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
-            "link_label": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-0",
-        "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-1",
-        "template--16717869383936__085b0d36-8019-45c6-9d08-810c33d3f52f-16760759562b8d4c87-2",
-        "9d38af84-479e-4cdb-a155-fb0d20de20d0"
-      ],
-      "custom_css": [
-        ".icon-gallery {background-color: #e6dec1;}"
-      ],
-      "settings": {
-        "title": "",
-        "heading_size": "h1",
-        "image_width": "half",
-        "image_ratio": "adapt",
-        "columns_desktop": 3,
-        "column_alignment": "center",
-        "background_style": "none",
-        "button_label": "",
-        "button_link": "",
-        "color_scheme": "background-1",
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
     "home-image-gallery-1": {
       "type": "home-image-gallery",
       "blocks": {
@@ -379,7 +308,6 @@
     "home-slideshow-1",
     "815321eb-24de-43d0-b0e0-17379d118bb0",
     "f5b9a8ed-17d9-4725-8a91-d9ddd204c8c6",
-    "085b0d36-8019-45c6-9d08-810c33d3f52f",
     "home-image-gallery-1",
     "home-featured-collection-1",
     "59a99ddf-3cec-4af6-8f29-7d5a6ab80f56",
