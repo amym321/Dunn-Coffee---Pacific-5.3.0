@@ -9884,7 +9884,7 @@ input[type=button].cart-shipping-calculator__button.secondary {
   max-width: 640px;
   margin: 0 auto 60px;
   word-wrap: break-word;
-  text-align: center;
+  /* text-align: center; */
 }
 @media (max-width: 720px) {
   .collection-description {
@@ -11959,19 +11959,19 @@ input[type=button].cart-shipping-calculator__button.secondary {
   display: inline-block;
   margin: 0;
   padding: 0 10px;
-  width: 33%;
+  /* width: 33%; */
   text-align: left;
 }
 /* fit option title - am */
 @media (min-width: 721px) and (max-width: 1460px) {
   .product-options .inline-field-wrapper {
-      width: 50%;
+      /* width: 50%; */
   }
 }
 @media (max-width: 720px) {
   .product-options .input-wrapper,
 .product-options .inline-field-wrapper {
-    width: 100%;
+    /* width: 100%; */
     padding: 0;
     display: block;
     margin-top: 25px;
@@ -12903,6 +12903,15 @@ shopify-payment-terms {
 
 
 /* custom section - marquee */
+.custom-liquid {
+  margin-top:40px;
+}
+@media (min-width:721px){
+  .custom-liquid {
+    margin-bottom: 80px;
+  }
+}
+
 .marquee {
   padding: 2px 0;
   display: block;
@@ -12995,7 +13004,8 @@ shopify-payment-terms {
 }
 
 /* homepage collection list */
-.home-collection-list  .home-module-content .section-title {
+.home-collection-list  .home-module-content .section-title,
+.home-collection-list  .home-module-content  .home-collection-list-item h3 {
   font-size: var(--font-size-heading-2-capitalize);
 }
 
@@ -13276,7 +13286,7 @@ footer h4,
 
 .template-product .pxs-newsletter {
   background-color: #db2327;
-  background-image: url('//cdn.shopify.com/s/files/1/2467/6817/files/coffee_cup_3c.png?v=1676861097');
+  background-image: url('//cdn.shopify.com/s/files/1/2467/6817/files/coffee_cup_3c_dunn_brothers.png?v=1677460732');
   background-position-x: left;
   background-repeat: no-repeat;
   background-size:contain;
