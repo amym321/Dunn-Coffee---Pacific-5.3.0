@@ -89,7 +89,7 @@
       "disabled": true,
       "settings": {
         "title": "Don't Forget Accessories",
-        "border": false,
+        "border": true,
         "collection": "black-label-wholesale",
         "products_in_row": 2,
         "rows": 1,
