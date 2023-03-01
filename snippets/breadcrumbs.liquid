@@ -4,7 +4,13 @@
 
   {% if template contains "product" %}
     {% if product.collections %}
+
+
+
       <a href="{{ routes.collections_url }}">{{ 'collections.listing.title' | t }}</a>
+
+
+
       {% if collection and collection.url %}
         <span class="divider">/</span>
         <a href="{{ collection.url }}">{{ collection.title }}</a>
@@ -24,7 +30,13 @@
     {% if collection.handle == 'all' %}
       <span>{{ 'collections.collection.all_products' | t }}</span>
     {% else %}
+
+
+
       <a href="{{ routes.collections_url }}">{{ 'collections.listing.title' | t }}</a> <span class="divider">/</span> <span>{{ collection.title }}</span>
+
+
+
     {% endif %}
   {% elsif template contains "blog" %}
     {% if current_tags.size > 0 %}
