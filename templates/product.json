@@ -86,6 +86,7 @@
     },
     "ce466558-5a1a-4ec9-9faf-c8524c16fdf5": {
       "type": "home-featured-collection",
+      "disabled": true,
       "settings": {
         "title": "Don't Forget Accessories",
         "border": false,
@@ -97,7 +98,6 @@
     },
     "product-recommendations": {
       "type": "static-product-recommendations",
-      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You may also like",
