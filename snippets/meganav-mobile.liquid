@@ -42,6 +42,9 @@
     data-navmenu
   >
     {% for menu_item in menu_links %}
+      {%- comment %}<locksmith:8e5a>{% endcomment -%}
+        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: menu_item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+      {%- comment %}</locksmith:8e5a>{% endcomment -%}
       {% assign show_subnav = true %}
       {% if linklists[menu_item.handle] == blank %}
         {% assign show_subnav = false %}

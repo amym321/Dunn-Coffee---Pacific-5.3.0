@@ -9,6 +9,9 @@
         <h4>{{ linklists[name].title | escape }}</h4>
         <ul>
           {% for link in linklists[name].links %}
+            {%- comment %}<locksmith:c22a>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[name], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:c22a>{% endcomment -%}
             <li><a href="{{ link.url }}">{{ link.title | escape }}</a></li>
           {% endfor %}
         </ul>

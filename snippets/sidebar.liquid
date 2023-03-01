@@ -12,6 +12,9 @@
 
         <ul>
           {% for link in linklists[name].links %}
+            {%- comment %}<locksmith:b596>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists[name], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:b596>{% endcomment -%}
             {% assign list = link.links %}
             {% assign has-dropdown = false %}
             {% if list.size > 0 %}
@@ -25,6 +28,9 @@
                   <ul>
                     <li class="{% if link.active %}active{% endif %} sidebar-link-list-mobile"><a href="{{ link.url }}">All {{ link.title}}</a></li>
                     {% for link in link.links %}
+                      {%- comment %}<locksmith:61f7>{% endcomment -%}
+                        {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                      {%- comment %}</locksmith:61f7>{% endcomment -%}
                       <li class="{% if link.active %}active{% endif %} {% if has-dropdown %}has-children{% endif %}">
                         <a href="{{ link.url }}">{{ link.title }}</a>
                         {% assign list = link.links %}
@@ -37,6 +43,9 @@
                           <ul>
                             <li class="{% if link.active %}active{% endif %} sidebar-link-list-mobile"><a href="{{ link.url }}">All {{ link.title}}</a></li>
                             {% for link in link.links %}
+                              {%- comment %}<locksmith:6c06>{% endcomment -%}
+                                {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: link, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+                              {%- comment %}</locksmith:6c06>{% endcomment -%}
                               <li {% if link.active %}class="active"{% endif %}>
                                 <a href="{{ link.url }}">{{ link.title }}</a>
                               </li>

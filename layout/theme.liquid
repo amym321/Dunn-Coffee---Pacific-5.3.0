@@ -1,6 +1,11 @@
+{%- comment %}<locksmith:812e>{% endcomment -%}
+  {%- include 'locksmith' -%}
+{%- comment %}</locksmith:812e>{% endcomment -%}
+
 <!doctype html>
 <html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
 <head>
+  {{ locksmith_initializations }}
   <script>
     window.Store = window.Store || {};
     window.Store.id = {{ shop.id }};
@@ -36,7 +41,10 @@
   </title>
 
   {% if page_description %}
-    <meta name="description" content="{{ page_description | escape }}" />
+    {%- comment %}<locksmith:1e13>{% endcomment -%}
+      {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}" />{% endif -%}
+      {%- comment %}original: <meta name="description" content="{{ page_description | escape }}" />{%- endcomment %}
+    {%- comment %}</locksmith:1e13>{% endcomment -%}
   {% endif %}
 
   {% if settings.favicon %}

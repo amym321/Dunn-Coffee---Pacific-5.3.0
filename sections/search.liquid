@@ -59,6 +59,10 @@
         <div class="search-results rows-of-3 collection-products clearfix">
           {% for item in search.results %}
 
+            {%- comment %}<locksmith:a263>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: item, subject_parent: search, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:a263>{% endcomment -%}
+
             {% if item.object_type == 'product' %}
               {%
                 render "product-list-item",

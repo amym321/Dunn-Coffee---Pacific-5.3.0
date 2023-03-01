@@ -74,9 +74,18 @@
 
 <meta property="og:site_name" content="{{ shop.name | escape }}">
 <meta property="og:url" content="{{ og_url }}">
-<meta property="og:title" content="{{ og_title | escape }}">
-<meta property="og:type" content="{{ og_type }}">
-<meta property="og:description" content="{{ og_description | escape }}">
+{%- comment %}<locksmith:6111>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:title" content="{{ og_title | escape }}">{% endif -%}
+  {%- comment %}original: <meta property="og:title" content="{{ og_title | escape }}">{%- endcomment %}
+{%- comment %}</locksmith:6111>{% endcomment -%}
+{%- comment %}<locksmith:f72a>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:type" content="{{ og_type }}">{% endif -%}
+  {%- comment %}original: <meta property="og:type" content="{{ og_type }}">{%- endcomment %}
+{%- comment %}</locksmith:f72a>{% endcomment -%}
+{%- comment %}<locksmith:1472>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta property="og:description" content="{{ og_description | escape }}">{% endif -%}
+  {%- comment %}original: <meta property="og:description" content="{{ og_description | escape }}">{%- endcomment %}
+{%- comment %}</locksmith:1472>{% endcomment -%}
 
 {% if template.name == 'article' %}
   <meta property="article:published_time" content="{{ article.published_at }}">
@@ -161,8 +170,13 @@
   {% endcapture %}
 {% endif %}
 
-<meta name="twitter:title" content="{{ twitter_title | escape }}">
-<meta name="twitter:description" content="{{ twitter_description | escape }}">
+{%- comment %}<locksmith:cbac>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="twitter:title" content="{{ twitter_title | escape }}">{% endif -%}
+  {%- comment %}original: <meta name="twitter:title" content="{{ twitter_title | escape }}">{%- endcomment %}
+{%- comment %}</locksmith:cbac>{% endcomment -%}
+{%- comment %}<locksmith:e2e8>{% endcomment -%}
+  {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="twitter:description" content="{{ twitter_description | escape }}">{% endif -%}
+  {%- comment %}original: <meta name="twitter:description" content="{{ twitter_description | escape }}">{%- endcomment %}
+{%- comment %}</locksmith:e2e8>{% endcomment -%}
 
 {{ twitter_image_tags }}
-

@@ -43,6 +43,9 @@
         {% if menu_title %}aria-label="{{ menu_title }}"{% endif %}
       >
         {% for menu_item in menu_links %}
+          {%- comment %}<locksmith:ac05>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: menu_item, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:ac05>{% endcomment -%}
           {% assign show_subnav = true %}
           {% if linklists[menu_item.handle] == blank %}
             {% assign show_subnav = false %}

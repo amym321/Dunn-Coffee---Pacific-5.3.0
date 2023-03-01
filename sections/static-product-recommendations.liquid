@@ -34,6 +34,9 @@
         data-product-row
       >
         {% for product in recommendations.products limit: product_limit %}
+          {%- comment %}<locksmith:fdba>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:fdba>{% endcomment -%}
           {%
             render 'product-list-item',
             elementType: 'li',

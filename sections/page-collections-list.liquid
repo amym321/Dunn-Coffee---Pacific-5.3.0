@@ -14,6 +14,9 @@
     <div class="collections-list showing-{{collectionsPerRow}}-per-row">
       {% if using-linklist %}
         {% for link in linklists['all-collections'].links %}
+          {%- comment %}<locksmith:010f>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: link, subject_parent: linklists.all-collections, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:010f>{% endcomment -%}
           {%
             render 'collection-list-item',
             collection: nil,
@@ -25,6 +28,9 @@
         {% endfor %}
       {% else %}
         {% for collection in collections %}
+          {%- comment %}<locksmith:f5fc>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:f5fc>{% endcomment -%}
           {%
             render 'collection-list-item',
             collection: collection,

@@ -113,6 +113,9 @@
       data-layout="{{productLayout}}">
 
       {% for product in collection.products %}
+        {%- comment %}<locksmith:853e>{% endcomment -%}
+          {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collection, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+        {%- comment %}</locksmith:853e>{% endcomment -%}
         {%
           render 'product-list-item',
           product: product,

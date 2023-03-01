@@ -24,6 +24,9 @@
       <div class="home-featured-collection-list collection-products uniform-layout {{ text-style }}-style">
         {% if productsCollection != blank %}
           {% for product in collections[productsCollection].products limit: featuredProducts %}
+            {%- comment %}<locksmith:d085>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: collections[productsCollection], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:d085>{% endcomment -%}
             {%
               render 'product-list-item',
               product: product,

@@ -49,6 +49,9 @@
         <h3 class="livesearch-quicklinks-heading meta">{{ 'general.livesearch.quicklinks_heading' | t }}</h3>
         <ul class="livesearch-quicklinks-list">
           {% for quickLink in linklists[searchQuickLinks].links %}
+            {%- comment %}<locksmith:7c1d>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: quickLink, subject_parent: linklists[searchQuickLinks], variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:7c1d>{% endcomment -%}
             <li><a href="{{ quickLink.url }}">{{ quickLink.title }}</a></li>
           {% endfor %}
         </ul>

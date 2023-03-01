@@ -69,8 +69,14 @@
         class="complementary-products__slider"
         data-slider
       >
+      {%- comment %}<locksmith:a0f4>{% endcomment -%}
+        {%- assign locksmith_4c70_forloop__size = 0 %}{% for product in recommendations.products %}{% capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == 'true' %}{% assign locksmith_4c70_forloop__size = locksmith_4c70_forloop__size | plus: 1 %}{% endif %}{% endfor %}{% assign locksmith_4c70_forloop__index = nil -%}
+      {%- comment %}</locksmith:a0f4>{% endcomment -%}
       {% for product in recommendations.products %}
-          {% assign slide_index_remainder = forloop.index | modulo: products_per_slide %}
+          {%- comment %}<locksmith:a2cc>{% endcomment -%}
+            {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: product, subject_parent: recommendations, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% if locksmith_4c70_forloop__index == nil %}{% assign locksmith_4c70_forloop__index = 1 %}{% assign locksmith_4c70_forloop__index0 = 0 %}{% else %}{% assign locksmith_4c70_forloop__index = locksmith_4c70_forloop__index | plus: 1 %}{% assign locksmith_4c70_forloop__index0 = locksmith_4c70_forloop__index0 | plus: 1 %}{% endif %}{% if locksmith_4c70_forloop__index == 1 %}{% assign locksmith_4c70_forloop__first = true %}{% else %}{% assign locksmith_4c70_forloop__first = false %}{% endif %}{% if locksmith_4c70_forloop__index == locksmith_4c70_forloop__size %}{% assign locksmith_4c70_forloop__last = true %}{% else %}{% assign locksmith_4c70_forloop__last = false %}{% endif %}{% assign locksmith_4c70_forloop__rindex = locksmith_4c70_forloop__size | minus: locksmith_4c70_forloop__index | minus: 1 %}{% assign locksmith_4c70_forloop__rindex0 = locksmith_4c70_forloop__size | minus: locksmith_4c70_forloop__index0 | minus: 1 %}{% else %}{% continue %}{% endif -%}
+          {%- comment %}</locksmith:a2cc>{% endcomment -%}
+          {% assign slide_index_remainder = locksmith_4c70_forloop__index | modulo: products_per_slide %}
           {% if slide_index_remainder == 1 or products_per_slide == 1 %}
             <div
               class="
@@ -95,7 +101,7 @@
             %}
           </div>
 
-          {% if forloop.last or slide_index_remainder == 0 or products_per_slide == 1 %}
+          {% if locksmith_4c70_forloop__last or slide_index_remainder == 0 or products_per_slide == 1 %}
             </div>
           {% endif %}
         {% endfor %}
