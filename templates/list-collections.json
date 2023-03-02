@@ -4,7 +4,7 @@
       "type": "page-collections-list",
       "settings": {
         "collections_in_row": 2,
-        "rows": 6,
+        "rows": 10,
         "text_style": "under",
         "show_descriptions": false
       }
