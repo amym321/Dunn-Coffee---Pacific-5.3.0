@@ -15,6 +15,12 @@
             "position": "top"
           }
         },
+        "d8659d30-5b42-460a-8c08-f4896a383cac": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
         "gallery": {
           "type": "gallery",
           "settings": {
@@ -69,6 +75,7 @@
       "block_order": [
         "title",
         "vendor",
+        "d8659d30-5b42-460a-8c08-f4896a383cac",
         "gallery",
         "price",
         "25e1885b-78d4-4902-9270-486ea8afd31a",
