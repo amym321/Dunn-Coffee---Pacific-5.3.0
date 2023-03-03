@@ -1,7 +1,7 @@
 <div class="product-options {{ class }}" {{ block.shopify_attributes }}>
   {% if product.has_only_default_variant %}
     <input
-      name="id"
+      name="id" data-productid="{{ product.id }}"
       value="{{ product.variants[0].id }}"
       type="hidden"
     >
@@ -49,7 +49,7 @@
       {% endcomment %}
       <select
         class="product-select inline-field-wrapper"
-        name="id"
+        name="id" data-productid="{{ product.id }}"
         id="product-select-{{ form_id }}-no-js"
         data-variants
       >

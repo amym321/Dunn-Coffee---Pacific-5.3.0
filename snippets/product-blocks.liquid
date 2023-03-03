@@ -203,7 +203,7 @@
 
 {% unless rendered_variant_selection %}
   <input
-  name="id"
+  name="id" data-productid="{{ product.id }}"
   value="{{ product.selected_or_first_available_variant.id }}"
   type="hidden"
   >
