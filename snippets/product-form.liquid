@@ -31,7 +31,7 @@
         <span class="product__atc-wrapper {% unless variant.available %}hidden{% endunless %}" data-atc-available>
           <input class="add-to-cart" type="submit" value="{{ 'products.product.add_to_cart' | t }}" />
           <link itemprop="availability" href="http://schema.org/InStock">
-{% if product.available %}{% include 'subscription-product' %}{% endif %} 
+
           {% if show_dynamic_checkout_button %}
             {{ form | payment_button }}
           {% endif %}
