@@ -60,7 +60,7 @@
           {% if item.properties %}
             <div class="cart-line-item-properties">
               {% for property in item.properties %}
-                {% if property.last != blank %}
+                {% if property.last != blank and property.first != "subscription_id" and property.first != "shipping_interval_frequency" and property.first != "shipping_interval_unit_type" %}
                   <span class="cart-item-property">
                     <strong>{{ property.first }}</strong>:
 
