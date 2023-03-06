@@ -27,6 +27,12 @@
             "position": "left"
           }
         },
+        "f8964338-0b56-414e-bc4d-1d34a3431073": {
+          "type": "recharge",
+          "settings": {
+            "position": "right"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -77,6 +83,7 @@
         "vendor",
         "d8659d30-5b42-460a-8c08-f4896a383cac",
         "gallery",
+        "f8964338-0b56-414e-bc4d-1d34a3431073",
         "price",
         "25e1885b-78d4-4902-9270-486ea8afd31a",
         "variant_selection",
