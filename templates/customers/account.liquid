@@ -1,12 +1,11 @@
 <p class="account-logged-in-as">
   {{ 'customers.general.logged_in_as' | t: customer_name: customer.name }} (<em>{{ 'customers.general.logout' | t | customer_logout_link }}</em>
-<!-- Begin ReCharge code -->
-<p id="rc_link_container">
-    <a href="/tools/recurring/login">Manage Subscriptions</a>
-</p>
-<!-- End ReCharge code -->
-)
-  &bull; <a href="{{ routes.account_addresses_url }}">{{ 'customers.addresses.title' | t }} ({{ customer.addresses_count }})</a>
+  <!-- Begin ReCharge code -->
+  <p id="rc_link_container">
+      <a href="/tools/recurring/login">Manage Subscriptions</a>
+  </p>
+  <!-- End ReCharge code -->
+  <a href="{{ routes.account_addresses_url }}">{{ 'customers.addresses.title' | t }} ({{ customer.addresses_count }})</a>
 </p>
 
 {% if customer.addresses.size > 0 %}
