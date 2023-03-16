@@ -100,6 +100,10 @@
     },
     "0d14f6c9-71aa-4cc6-bcd2-17a969ac12f3": {
       "type": "home-image-with-text",
+      "custom_css": [
+        ".home-module {background-image: none; background-color: #db2327 !important; color: #fff; margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;}",
+        "h2 {color: #fff;}"
+      ],
       "settings": {
         "title": "",
         "border": false,
