@@ -1,5 +1,30 @@
 {
   "sections": {
+    "d8d5d173-856c-41a0-a4cb-035fd172e52d": {
+      "type": "pxs-rich-text",
+      "blocks": {
+        "template--16717869351168__d8d5d173-856c-41a0-a4cb-035fd172e52d-167899821393475220-0": {
+          "type": "text",
+          "settings": {
+            "title": "FREE SHIPPING ON ORDERS OVER $40",
+            "text": "",
+            "heading_size": "medium",
+            "text_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16717869351168__d8d5d173-856c-41a0-a4cb-035fd172e52d-167899821393475220-0"
+      ],
+      "custom_css": [
+        ".pxs-rich-text-section {background-color: #473124; color: #fff;}",
+        "h2 {color: #fff;}",
+        ".pxs-rich-text {padding-top: 40px; padding-bottom: 40px;}"
+      ],
+      "settings": {
+        "width": "full-width"
+      }
+    },
     "main": {
       "type": "page-product",
       "blocks": {
@@ -129,38 +154,13 @@
         "desktop_alignment": "left",
         "mobile_alignment": "top"
       }
-    },
-    "d8d5d173-856c-41a0-a4cb-035fd172e52d": {
-      "type": "pxs-rich-text",
-      "blocks": {
-        "template--16717869351168__d8d5d173-856c-41a0-a4cb-035fd172e52d-167899821393475220-0": {
-          "type": "text",
-          "settings": {
-            "title": "Rich text",
-            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
-            "heading_size": "large",
-            "text_alignment": "left"
-          }
-        }
-      },
-      "block_order": [
-        "template--16717869351168__d8d5d173-856c-41a0-a4cb-035fd172e52d-167899821393475220-0"
-      ],
-      "custom_css": [
-        ".pxs-rich-text-section {background-color: #473124; color: #fff;}",
-        "h2 {color: #fff;}",
-        ".pxs-rich-text {padding-top: 40px; padding-bottom: 40px;}"
-      ],
-      "settings": {
-        "width": "full-width"
-      }
     }
   },
   "order": [
+    "d8d5d173-856c-41a0-a4cb-035fd172e52d",
     "main",
     "ce466558-5a1a-4ec9-9faf-c8524c16fdf5",
     "product-recommendations",
-    "5b6e826e-2c27-4377-8117-617d11732b31",
-    "d8d5d173-856c-41a0-a4cb-035fd172e52d"
+    "5b6e826e-2c27-4377-8117-617d11732b31"
   ]
 }
