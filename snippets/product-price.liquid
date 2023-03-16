@@ -17,7 +17,7 @@
       {% if section_onboarding %}
         {{ 1999 | money }}
       {% else %}
-        {{ variant.price | money }}
+        {{ variant.price | money }} {% if product.type == "Coffee"  %} / LB {% endif %}
       {% endif %}
     </span>
 
