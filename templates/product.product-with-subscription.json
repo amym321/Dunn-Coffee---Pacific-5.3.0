@@ -102,7 +102,8 @@
       "type": "home-image-with-text",
       "custom_css": [
         ".home-module {background-image: none; background-color: #db2327 !important; color: #fff; margin-bottom: 0; padding-top: 50px; padding-bottom: 50px;}",
-        "h2 {color: #fff;}"
+        "h2 {color: #fff;}",
+        ".image-text-pdp {padding-top:50px;}"
       ],
       "settings": {
         "title": "",
