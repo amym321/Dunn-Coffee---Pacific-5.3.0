@@ -1,1 +1,42 @@
-{"sections":{"main":{"type":"page-cart","settings":{}}},"order":["main"]}
+{
+  "sections": {
+    "main": {
+      "type": "page-cart",
+      "settings": {
+        "enable_checkout_lock_icon": false,
+        "cart_special_instructions": true,
+        "cart_shipping_calculator": true,
+        "shipping_calculator_default_country": "United States"
+      }
+    },
+    "a34ad222-c8d7-4cb2-a336-902dbe73c81d": {
+      "type": "pxs-rich-text",
+      "blocks": {
+        "template--16717868859648__a34ad222-c8d7-4cb2-a336-902dbe73c81d-16789986104100d8a8-0": {
+          "type": "text",
+          "settings": {
+            "title": "Rich text",
+            "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.<\/p>",
+            "heading_size": "large",
+            "text_alignment": "left"
+          }
+        }
+      },
+      "block_order": [
+        "template--16717868859648__a34ad222-c8d7-4cb2-a336-902dbe73c81d-16789986104100d8a8-0"
+      ],
+      "custom_css": [
+        ".pxs-rich-text-section {background-color: #db2327; color: #fff;}",
+        "h2 {color: #fff;}",
+        ".pxs-rich-text {padding-top: 40px; padding-bottom: 40px;}"
+      ],
+      "settings": {
+        "width": "full-width"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "a34ad222-c8d7-4cb2-a336-902dbe73c81d"
+  ]
+}
