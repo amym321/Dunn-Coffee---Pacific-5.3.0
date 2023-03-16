@@ -1,0 +1,140 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+            "position": "top"
+          }
+        },
+        "d8659d30-5b42-460a-8c08-f4896a383cac": {
+          "type": "shopify:\/\/apps\/recharge-subscriptions\/blocks\/subscription-widget\/371eed76-0b44-4869-9813-730372ea378e",
+          "settings": {
+            "product": "{{product}}"
+          }
+        },
+        "gallery": {
+          "type": "gallery",
+          "settings": {
+            "position": "left"
+          }
+        },
+        "f8964338-0b56-414e-bc4d-1d34a3431073": {
+          "type": "recharge",
+          "settings": {
+            "position": "right"
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "position": "right"
+          }
+        },
+        "25e1885b-78d4-4902-9270-486ea8afd31a": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>select <\/p>",
+            "position": "right"
+          }
+        },
+        "variant_selection": {
+          "type": "variant_selection",
+          "settings": {
+            "position": "right"
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "position": "right"
+          }
+        },
+        "e913a8d3-a0af-4756-8566-f3361023d4a5": {
+          "type": "quantity",
+          "settings": {
+            "position": "right"
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "position": "right"
+          }
+        },
+        "83545abc-36ea-4eb3-be2b-3564f127717a": {
+          "type": "share",
+          "settings": {
+            "position": "right"
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "d8659d30-5b42-460a-8c08-f4896a383cac",
+        "gallery",
+        "f8964338-0b56-414e-bc4d-1d34a3431073",
+        "price",
+        "25e1885b-78d4-4902-9270-486ea8afd31a",
+        "variant_selection",
+        "form",
+        "e913a8d3-a0af-4756-8566-f3361023d4a5",
+        "description",
+        "83545abc-36ea-4eb3-be2b-3564f127717a"
+      ],
+      "settings": {
+        "enable_zoom": true,
+        "gallery_enable_video_autoplay": true,
+        "gallery_enable_video_looping": true
+      }
+    },
+    "ce466558-5a1a-4ec9-9faf-c8524c16fdf5": {
+      "type": "home-featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Don't Forget Accessories",
+        "border": true,
+        "collection": "black-label-wholesale",
+        "products_in_row": 2,
+        "rows": 1,
+        "product_image_flip": false
+      }
+    },
+    "product-recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like",
+        "products_in_row": 4
+      }
+    },
+    "5b6e826e-2c27-4377-8117-617d11732b31": {
+      "type": "pxs-newsletter",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "title": "Be an insider",
+        "text": "<p>Sign up for our newsletter and get freshly brewed deals in your inbox.<\/p>",
+        "desktop_alignment": "left",
+        "mobile_alignment": "top"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "ce466558-5a1a-4ec9-9faf-c8524c16fdf5",
+    "product-recommendations",
+    "5b6e826e-2c27-4377-8117-617d11732b31"
+  ]
+}
