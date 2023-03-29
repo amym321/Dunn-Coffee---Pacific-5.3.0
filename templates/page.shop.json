@@ -49,18 +49,6 @@
     "da7957f2-8d63-4961-a0fb-e6e960a5ba03": {
       "type": "home-image-gallery",
       "blocks": {
-        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1": {
-          "type": "feature",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/DB-coffee-pods.jpg",
-            "title": "SINGLE SERVE PODS",
-            "text-above": "",
-            "text-below": "",
-            "url": "shopify:\/\/collections\/single-serve-pods",
-            "text-color": "dark",
-            "text-position": "center"
-          }
-        },
         "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-0": {
           "type": "feature",
           "settings": {
@@ -72,11 +60,23 @@
             "text-color": "dark",
             "text-position": "center"
           }
+        },
+        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/DB-coffee-pods.jpg",
+            "title": "BEST SELLERS",
+            "text-above": "",
+            "text-below": "",
+            "url": "shopify:\/\/collections\/bestsellers",
+            "text-color": "dark",
+            "text-position": "center"
+          }
         }
       },
       "block_order": [
-        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1",
-        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-0"
+        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-0",
+        "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1"
       ],
       "settings": {
         "title": "",
@@ -86,6 +86,7 @@
     },
     "8ea44c41-521a-4b52-bb21-b36f314acdb0": {
       "type": "home-image-gallery",
+      "disabled": true,
       "blocks": {
         "template--16723888636160__8ea44c41-521a-4b52-bb21-b36f314acdb0-16768615350a9517b7-0": {
           "type": "feature",
@@ -137,6 +138,7 @@
     },
     "f2c397bd-9b62-402a-924e-7795a6f0a6d1": {
       "type": "home-image-gallery",
+      "disabled": true,
       "blocks": {
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-0": {
           "type": "feature",
