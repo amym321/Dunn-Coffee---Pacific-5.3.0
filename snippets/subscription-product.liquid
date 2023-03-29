@@ -261,15 +261,15 @@
 							<div class="rc_popup__close" style="display: none;">x</div>
 							{{ how_it_works_text }}
 							{% if show_learnmore %}
-								<br><a href="{{ learnmore_url }}" target="_blank" aria-label="Learn more about ReCharge Payments">{{ learnmore_link }}</a>
+								{% comment %} <br><a href="{{ learnmore_url }}" target="_blank" aria-label="Learn more about ReCharge Payments">{{ learnmore_link }}</a> {% endcomment %}
 							{% endif %}
 						</div>
 						{% if show_poweredby %}
-							<div class="rc_popup__block__footer">
+							{% comment %} <div class="rc_popup__block__footer">
 								<a href="{{ poweredby_url }}" target="_blank" aria-label="ReCharge Payments homepage">
 									<img src="//static.rechargecdn.com/static/images/widget/rc_widget__banner@2x.png" height="28" width="153" loading="lazy" decoding="async" alt="ReCharge Subscriptions company banner" class="rc_popup__badge">
 								</a>
-							</div>
+							</div> {% endcomment %}
 						{% endif %}
 					</div>
 				</div>
