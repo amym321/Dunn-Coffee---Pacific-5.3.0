@@ -3,7 +3,7 @@
   fiddle with what's below, but your changes will be reset the next time that
   Locksmith interacts with your shop.
 
-  Last updated: Wed, 01 Mar 2023 23:09:04 +0000
+  Last updated: Wed, 05 Apr 2023 00:17:25 +0000
   Integration version: v6.29
 {% endcomment -%}
 
@@ -56,7 +56,9 @@
     <div class="input-wrapper">
       <input type="submit" value="{{'customers.login.submit'|t}}">
       <p class="toggle-forgetfulness"><span>{{'customers.login.forgot_your_password'|t}}</span></p>
-    </div>{%endform%}</div>
+    </div>{%endform%}<!-- Begin ReCharge code -->{%render 'subscription-account-login'%}<!-- End ReCharge code -->
+
+</div>
 
 <div class="recover-password">{%form 'recover_customer_password'%}<p>{{'customers.login.reset_password_message_before'|t}}</p>{%if form.posted_successfully?%}<span class="reset-check" data-successful-reset="true"></span>{%endif%}<div class="input-wrapper">
       <label>{{'general.general.email'|t}}</label>
