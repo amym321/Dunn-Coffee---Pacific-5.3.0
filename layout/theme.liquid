@@ -156,6 +156,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   sidebar-{% if sidebar %}enabled{% else %}disabled{% endif %}
   template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}
 ">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQWC2M7"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
   <div style="--background-color: {{ settings.color_background }}">
     {% 
       render 'age-gate', 
