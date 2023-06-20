@@ -1,10 +1,11 @@
-{%- comment %}<locksmith:812e>{% endcomment -%}
+{%- comment %}<locksmith:638c>{% endcomment -%}
   {%- include 'locksmith' -%}
-{%- comment %}</locksmith:812e>{% endcomment -%}
+{%- comment %}</locksmith:638c>{% endcomment -%}
 
 <!doctype html>
 <html class="no-js no-touch" lang="{{ request.locale.iso_code }}">
 <head>
+  {{ locksmith_initializations }}
   <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -12,7 +13,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-KQWC2M7');</script>
 <!-- End Google Tag Manager -->
-  {{ locksmith_initializations }}
   <script>
     window.Store = window.Store || {};
     window.Store.id = {{ shop.id }};
@@ -48,10 +48,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   </title>
 
   {% if page_description %}
-    {%- comment %}<locksmith:1e13>{% endcomment -%}
+    {%- comment %}<locksmith:f35b>{% endcomment -%}
       {%- capture var %}{% render 'locksmith-variables', variable: 'transparent', hiding_scope: 'resource' %}{% endcapture %}{% if var == 'true' %}<meta name="description" content="{{ page_description | escape }}" />{% endif -%}
       {%- comment %}original: <meta name="description" content="{{ page_description | escape }}" />{%- endcomment %}
-    {%- comment %}</locksmith:1e13>{% endcomment -%}
+    {%- comment %}</locksmith:f35b>{% endcomment -%}
   {% endif %}
 
   {% if settings.favicon %}
