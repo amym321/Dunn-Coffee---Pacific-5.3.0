@@ -160,7 +160,7 @@
           "show_announcement": true,
           "announcement_home_only": false,
           "announcement_text": "Return to Dunn Brothers Main Site",
-          "announcement_text_mobile": "Use less text on mobile!",
+          "announcement_text_mobile": "Return to Dunn Brothers Main Site",
           "announcement_link": "https:\/\/dunnbrothers.com\/",
           "announcement_color": "#ffffff",
           "announcement_background": "#db2327"
