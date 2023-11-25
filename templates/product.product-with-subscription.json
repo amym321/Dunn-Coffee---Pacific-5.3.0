@@ -101,6 +101,13 @@
           "settings": {
             "position": "right"
           }
+        },
+        "15a00e2c-b57a-4cd3-b9c1-894f056b176a": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>BLACK FRIDAY OFFER<\/strong><\/p><ul><li>25% off 3 Month pre-paid subscriptions: <strong>3SUBSCRIPTION25<\/strong><\/li><li>25% off 6 Month pre-paid subscriptions: <strong>6SUBSCRIPTION25<\/strong><\/li><li>50% off 12 Month pre-paid subscriptions: <strong>SUBSCRIPTION50<\/strong><\/li><\/ul>",
+            "position": "top"
+          }
         }
       },
       "block_order": [
@@ -115,7 +122,8 @@
         "form",
         "e913a8d3-a0af-4756-8566-f3361023d4a5",
         "description",
-        "83545abc-36ea-4eb3-be2b-3564f127717a"
+        "83545abc-36ea-4eb3-be2b-3564f127717a",
+        "15a00e2c-b57a-4cd3-b9c1-894f056b176a"
       ],
       "settings": {
         "enable_zoom": true,
