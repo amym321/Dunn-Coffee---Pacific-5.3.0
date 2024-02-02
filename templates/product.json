@@ -93,7 +93,7 @@
         "text_8VCixx": {
           "type": "text",
           "settings": {
-            "text": "<p><em><strong>Buy one for $23 or TWO for $40 and automatically get FREE shipping! Price reflected in your shopping cart.<\/strong><\/em><\/p>",
+            "text": "<p><em><strong>Buy one for $23 or TWO for $40 and automatically get FREE shipping! <\/strong><\/em><\/p><p><em><strong>Price reflected in your shopping cart.<\/strong><\/em><\/p>",
             "position": "right"
           }
         },
