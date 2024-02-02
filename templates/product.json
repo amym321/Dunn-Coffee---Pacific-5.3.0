@@ -90,17 +90,17 @@
             "position": "right"
           }
         },
+        "text_8VCixx": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Buy a one-pound bag for $23 or buy two one-pound bags for $40 and qualify for free shipping! Price will be reflected in your shopping cart.<\/strong><\/em><\/p>",
+            "position": "right"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {
             "position": "right"
-          }
-        },
-        "text_8VCixx": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em>Buy a one-pound bag for $23 or buy two one-pound bags for $40 and qualify for free shipping! Price will be reflected in your shopping cart.<\/em><\/p>",
-            "position": "top"
           }
         },
         "83545abc-36ea-4eb3-be2b-3564f127717a": {
@@ -121,8 +121,8 @@
         "variant_selection",
         "form",
         "e913a8d3-a0af-4756-8566-f3361023d4a5",
-        "description",
         "text_8VCixx",
+        "description",
         "83545abc-36ea-4eb3-be2b-3564f127717a"
       ],
       "settings": {
