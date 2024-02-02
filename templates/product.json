@@ -99,7 +99,7 @@
         "text_8VCixx": {
           "type": "text",
           "settings": {
-            "text": "<p>Buy a one-pound bag for $23 or buy two one-pound bags for $40 and qualify for free shipping! Price will be reflected in your shopping cart.<\/p>",
+            "text": "<p><em>Buy a one-pound bag for $23 or buy two one-pound bags for $40 and qualify for free shipping! Price will be reflected in your shopping cart.<\/em><\/p>",
             "position": "top"
           }
         },
