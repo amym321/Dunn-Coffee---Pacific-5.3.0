@@ -16,10 +16,24 @@
             "text-color": "#ffffff",
             "text-shadow": false
           }
+        },
+        "feature_WbW9ab": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Copy_of_Untitled_5_-min.png",
+            "content-alignment": "center",
+            "title-heading": "Slideshow",
+            "text-above": "",
+            "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "url": "https:\/\/www.votemnbest.com\/dunnbros",
+            "text-color": "#ffffff",
+            "text-shadow": false
+          }
         }
       },
       "block_order": [
-        "template--16717869383936__410d711e-de16-4924-a43d-d355aced8528-167626170159dbb1b3-0"
+        "template--16717869383936__410d711e-de16-4924-a43d-d355aced8528-167626170159dbb1b3-0",
+        "feature_WbW9ab"
       ],
       "settings": {
         "title": "",
@@ -32,7 +46,6 @@
     },
     "home-slideshow-1": {
       "type": "home-slideshow",
-      "disabled": true,
       "blocks": {
         "block-1": {
           "type": "feature",
@@ -50,6 +63,7 @@
       "block_order": [
         "block-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "border": false,
@@ -286,10 +300,11 @@
       "type": "apps",
       "blocks": {
         "146afcfc-2bd2-410b-aa1d-35799a9ba309": {
-          "type": "shopify:\/\/apps\/instafeed-instagram-feed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
+          "type": "shopify:\/\/apps\/instafeed\/blocks\/app-block\/c447db20-095d-4a10-9725-b5977662c9d5",
           "settings": {
-            "heading_size": 22,
-            "feed_width": 100,
+            "title": "",
+            "title_color": "",
+            "alignment": "center",
             "html_area": ""
           }
         }
