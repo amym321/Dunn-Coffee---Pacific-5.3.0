@@ -17,15 +17,14 @@
             "text-shadow": false
           }
         },
-        "feature_WbW9ab": {
+        "feature_MNaCUK": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Copy_of_Untitled_5_-min.png",
             "content-alignment": "center",
-            "title-heading": "",
+            "title-heading": "Slideshow",
             "text-above": "",
-            "text-below": "",
-            "url": "https:\/\/www.votemnbest.com\/dunnbros",
+            "text-below": "Introduce customers to your shop with lifestyle imagery and product photography.",
+            "url": "",
             "text-color": "#ffffff",
             "text-shadow": false
           }
@@ -33,7 +32,7 @@
       },
       "block_order": [
         "template--16717869383936__410d711e-de16-4924-a43d-d355aced8528-167626170159dbb1b3-0",
-        "feature_WbW9ab"
+        "feature_MNaCUK"
       ],
       "settings": {
         "title": "",
