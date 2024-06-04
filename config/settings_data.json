@@ -70,7 +70,7 @@
             "settings": {
               "title": "",
               "footer-text-box": "",
-              "image": "shopify:\/\/shop_images\/dunn-brothers-logo-white_ca8c745a-a53b-4fcf-a56a-784b53c83054.png"
+              "image": "shopify:\/\/shop_images\/DunnBrothersCoffee_RedLogo.png"
             }
           },
           "1559668401188": {
@@ -138,7 +138,7 @@
           "sticky": true,
           "justify_navigation": false,
           "show_border": false,
-          "logo_desktop": "shopify:\/\/shop_images\/DB_PrimaryLogo_RGB_copy_8_fcb90d0f-de5e-4064-a7ad-51417aaf55b7.png",
+          "logo_desktop": "shopify:\/\/shop_images\/DunnBrothersCoffee_RedLogo.png",
           "center_logo_desktop": false,
           "logo_max_width_desktop": 170,
           "center_logo_mobile": true,
