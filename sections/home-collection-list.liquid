@@ -25,6 +25,9 @@
       <div class="home-module-inline-items">
         {% if section.blocks.size > 0 %}
           {% for block in section.blocks %}
+            {%- comment %}<locksmith:4570>{% endcomment -%}
+              {%- capture var %}{% render 'locksmith-variables', scope: 'subject', subject: block.settings.collection, subject_parent: section, variable: 'transparent' %}{% endcapture %}{% if var == "true" %}{% else %}{% continue %}{% endif -%}
+            {%- comment %}</locksmith:4570>{% endcomment -%}
             {% assign featuredCollection = block.settings.collection %}
             {% assign collectionImage = collections[featuredCollection].image %}
             {% assign collectionTitle = collections[featuredCollection].title %}

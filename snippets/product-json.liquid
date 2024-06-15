@@ -4,6 +4,19 @@
 
 {% liquid
   for block in section.blocks
+    comment
+      <locksmith:c81c> Code added automatically by the Locksmith app. Do not modify or remove.
+    endcomment
+    capture var
+      render 'locksmith-variables', scope: 'subject', subject: block.settings.product, subject_parent: section, variable: 'transparent'
+    endcapture
+    if var == "true"
+    else
+      continue
+    endif
+    comment
+      </locksmith:c81c> End Locksmith code block.
+    endcomment
     if block.type == 'complementary_products'
       assign complementary_product_limit = block.settings.product_recommendation_limit
       break
