@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -5,8 +14,7 @@
       "custom_css": [
         ".page-title {margin-bottom: 80px;}"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "5181a725-5c64-426b-b14f-39cf7b359cba": {
       "type": "home-image-gallery",
@@ -14,11 +22,11 @@
         "template--16723888636160__5181a725-5c64-426b-b14f-39cf7b359cba-1676867131d2df2b01-0": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DB-coffee.jpg",
+            "image": "shopify://shop_images/DB-coffee.jpg",
             "title": "COFFEE",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/fresh-roasted-coffee-and-tea",
+            "url": "shopify://collections/fresh-roasted-coffee",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -26,11 +34,11 @@
         "template--16723888636160__5181a725-5c64-426b-b14f-39cf7b359cba-1676867131d2df2b01-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Subscriptions-and-gifts.jpg",
+            "image": "shopify://shop_images/Subscriptions-and-gifts.jpg",
             "title": "GIFTS",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/gifts-subscriptions",
+            "url": "shopify://collections/gifts-subscriptions",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -52,11 +60,11 @@
         "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-0": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DB-tea.jpg",
+            "image": "shopify://shop_images/DB-tea.jpg",
             "title": "TEA",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/tea",
+            "url": "shopify://collections/tea",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -64,11 +72,11 @@
         "template--16723888636160__da7957f2-8d63-4961-a0fb-e6e960a5ba03-1676867131d2df2b01-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/DB-coffee-pods.jpg",
+            "image": "shopify://shop_images/DB-coffee-pods.jpg",
             "title": "BEST SELLERS",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/bestsellers",
+            "url": "shopify://collections/bestsellers",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -86,16 +94,15 @@
     },
     "8ea44c41-521a-4b52-bb21-b36f314acdb0": {
       "type": "home-image-gallery",
-      "disabled": true,
       "blocks": {
         "template--16723888636160__8ea44c41-521a-4b52-bb21-b36f314acdb0-16768615350a9517b7-0": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dark-Roast-3.jpg",
+            "image": "shopify://shop_images/Dark-Roast-3.jpg",
             "title": "DARK ROAST",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/dark-roast-coffees",
+            "url": "shopify://collections/dark-roast-coffees",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -103,11 +110,11 @@
         "template--16723888636160__8ea44c41-521a-4b52-bb21-b36f314acdb0-16768615350a9517b7-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Medium-Roast-2.jpg",
+            "image": "shopify://shop_images/Medium-Roast-2.jpg",
             "title": "MEDIUM ROAST",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/medium-roast-coffees",
+            "url": "shopify://collections/medium-roast-coffees",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -130,6 +137,7 @@
         "template--16723888636160__8ea44c41-521a-4b52-bb21-b36f314acdb0-16768615350a9517b7-1",
         "8d30dfe3-7522-4fb0-8b0e-954e68ece870"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "border": false,
@@ -138,16 +146,15 @@
     },
     "f2c397bd-9b62-402a-924e-7795a6f0a6d1": {
       "type": "home-image-gallery",
-      "disabled": true,
       "blocks": {
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-0": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Light-Roast-3.jpg",
+            "image": "shopify://shop_images/Light-Roast-3.jpg",
             "title": "LIGHT ROAST",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/light-roast-coffees",
+            "url": "shopify://collections/light-roast-coffees",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -155,11 +162,11 @@
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-1": {
           "type": "feature",
           "settings": {
-            "image": "shopify:\/\/shop_images\/decaf-6.jpg",
+            "image": "shopify://shop_images/decaf-6.jpg",
             "title": "DECAF",
             "text-above": "",
             "text-below": "",
-            "url": "shopify:\/\/collections\/decaf",
+            "url": "shopify://collections/decaf",
             "text-color": "dark",
             "text-position": "center"
           }
@@ -169,6 +176,7 @@
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-0",
         "template--16723888636160__f2c397bd-9b62-402a-924e-7795a6f0a6d1-16768615350a9517b7-1"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "border": false,
